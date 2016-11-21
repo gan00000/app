@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/e_size_264"
+        android:layout_height="@dimen/e_size_264"/>
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/e_696969"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="@dimen/e_text_size_40" />
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/efun_pd_download_for_reward"
+        android:textColor="@color/e_5fb1ff"
+        android:textSize="@dimen/e_text_size_35" />
+
+</LinearLayout>

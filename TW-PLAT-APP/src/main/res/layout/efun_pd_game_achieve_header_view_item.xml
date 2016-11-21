@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/efun_pd_list_item_bg_selector"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/e_size_30"
+        android:paddingTop="@dimen/e_size_50" >
+        
+         <ImageView 
+            android:layout_width="@dimen/e_size_48"
+            android:layout_height="@dimen/e_size_50"
+            android:layout_marginRight="@dimen/e_size_35"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/efun_pd_game_achieve_list_header_icon"/>
+  
+        <TextView
+            android:id="@+id/achieve_header" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/e_ff4f70"
+            android:textSize="@dimen/e_text_size_45"
+            />
+       
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/e_size_80"
+        android:layout_height="@dimen/e_size_10"
+        android:layout_marginBottom="@dimen/e_size_40"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/efun_pd_game_achieve_list_header_line" />
+
+</LinearLayout>

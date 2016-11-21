@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/e_size_90"
+    android:layout_marginTop="@dimen/e_size_10"
+    android:orientation="vertical" 
+    android:gravity="center_vertical">
+
+    <!-- <com.efun.platform.widget.BevelTextView
+        android:id="@+id/item_category"
+        android:layout_width="@dimen/e_size_180"
+        android:layout_height="@dimen/e_size_60"
+        android:paddingLeft="@dimen/e_size_10"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/e_text_size_35" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_gravity="center_vertical">
+
+        <TextView 
+            android:id="@+id/item_category"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+        	android:layout_marginRight="@dimen/e_size_20"
+            android:paddingLeft="@dimen/e_size_20"
+            android:paddingRight="@dimen/e_size_20"
+            android:paddingBottom="@dimen/e_size_5"
+            android:paddingTop="@dimen/e_size_5"
+            android:gravity="center_vertical"
+        	android:textColor="@android:color/white"
+        	android:textSize="@dimen/e_text_size_35"
+            />
+        
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/e_696969"
+            android:textSize="@dimen/e_text_size_45" />
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/e_696969"
+            android:textSize="@dimen/e_text_size_30" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:layout_marginTop="@dimen/e_size_20"
+        android:background="@color/e_eeeeee"/>
+
+</LinearLayout>

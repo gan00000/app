@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="@dimen/e_size_753"
+        android:layout_height="@dimen/e_size_592"
+        android:layout_centerInParent="true"
+        android:background="@drawable/efun_pd_cons_white_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/e_size_30" >
+
+        <ImageView
+            android:id="@+id/dialog_close"
+            android:layout_width="@dimen/e_size_64"
+            android:layout_height="@dimen/e_size_64"
+            android:layout_gravity="top|right"
+            android:src="@drawable/efun_pd_dialog_close_icon" />
+
+        <TextView
+            android:id="@+id/dialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e_size_30"
+            android:textColor="@color/e_29292e"
+            android:textSize="@dimen/e_text_size_36" />
+
+        <LinearLayout
+            android:id="@+id/dialog_gift_serial_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/e_size_70"
+            android:orientation="horizontal" >
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/efun_pd_dialog_serial_tips"
+                android:textColor="@color/e_29292e"
+                android:textSize="@dimen/e_text_size_36"  
+                />
+
+            <TextView
+                android:id="@+id/dialog_gift_serial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/e_58c2ef"
+                android:textSize="@dimen/e_text_size_36" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e_size_70"
+            android:background="@drawable/efun_pd_cons_ff686a_bg"
+            android:paddingBottom="@dimen/e_size_10"
+            android:paddingLeft="@dimen/e_size_80"
+            android:paddingRight="@dimen/e_size_80"
+            android:paddingTop="@dimen/e_size_10"
+            android:text="@string/efun_pd_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/e_text_size_40" />
+    </LinearLayout>
+
+</RelativeLayout>

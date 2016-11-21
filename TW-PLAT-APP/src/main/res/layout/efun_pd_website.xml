@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.efun.platform.widget.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.efun.platform.widget.TitleView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/websit_content_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/websit_progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/e_size_8"
+                android:background="@drawable/efun_pd_progress_web_loading_horizontal"
+                android:indeterminate="false"
+                android:indeterminateOnly="false"
+                android:progressDrawable="@drawable/efun_pd_progress_web_loading_horizontal"
+                android:visibility="gone" />
+
+            <com.efun.platform.widget.WebViewWithJS
+                android:id="@+id/websit_webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/e_size_1" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/center_btn"
+                android:layout_width="@dimen/e_size_520"
+                android:layout_height="@dimen/e_size_350"
+                android:layout_centerInParent="true"
+                android:background="@drawable/efun_pd_error_timeout"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/center_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/e_fe4445"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/e_size_10"
+                android:text="@string/efun_pd_timeout_error"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/e_text_size_40"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 標題 -->
+
+        <RelativeLayout
+            android:id="@+id/person_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_160"
+            android:background="@drawable/efun_pd_person_title_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout 
+                android:layout_width="@dimen/e_size_90"
+                android:layout_height="@dimen/e_size_70"
+                android:layout_centerVertical="true" 
+                android:layout_marginLeft="@dimen/e_size_50"
+                >
+              <ImageView
+                android:id="@+id/left_btn"
+                android:layout_width="@dimen/e_size_66"
+                android:layout_height="@dimen/e_size_47"
+                android:layout_centerVertical="true"
+                android:background="@drawable/efun_pd_person_sys_email_icon" />  
+                <TextView 
+	                android:id="@+id/sys_email_red_point"
+	                android:layout_width="@dimen/e_size_30"
+	                android:layout_height="@dimen/e_size_30"
+	                android:background="@drawable/efun_pd_oval_point_red"
+	                android:gravity="center"
+	                android:visibility="gone"
+	                android:textSize="@dimen/e_text_size_24"
+	                android:layout_alignParentRight="true"
+	                android:textColor="@android:color/white"/>
+            </RelativeLayout>
+            
+            <TextView
+                android:id="@+id/center_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/efun_pd_role_self"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/e_text_size_70" />
+
+            <ImageView
+                android:id="@+id/right_btn"
+                android:layout_width="@dimen/e_size_64"
+                android:layout_height="@dimen/e_size_64"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/e_size_50"
+                android:background="@drawable/efun_pd_person_sys_setting_icon" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/e_f8f4ee"
+            android:scrollbars="none" >
+
+            <RelativeLayout
+                android:id="@+id/contaier_relative_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 头部 -->
+
+                <RelativeLayout
+                    android:id="@+id/person_head_contaier_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/e_size_650"
+                    android:background="@drawable/efun_pd_person_info_bg"
+                    android:paddingBottom="@dimen/e_size_132"
+                    android:paddingTop="@dimen/e_size_106" >
+
+                    <ImageView
+                        android:id="@+id/head_icon"
+                        android:layout_width="@dimen/e_size_300"
+                        android:layout_height="@dimen/e_size_300"
+                        android:layout_marginLeft="@dimen/e_size_100"
+                        android:src="@drawable/efun_pd_default_round_icon" />
+
+                    <ImageView
+                        android:id="@+id/head_change_icon"
+                        android:layout_width="@dimen/e_size_95"
+                        android:layout_height="@dimen/e_size_95"
+                        android:layout_alignBottom="@id/head_icon"
+                        android:layout_alignRight="@id/head_icon"
+                        android:src="@drawable/efun_pd_person_camer_icon" />
+
+                    <LinearLayout
+                        android:layout_width="@dimen/e_size_300"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/head_icon"
+                        android:layout_marginLeft="@dimen/e_size_100"
+                        android:layout_marginTop="@dimen/e_size_30"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="@dimen/e_size_260"
+                            android:layout_height="@dimen/e_size_62"
+                            android:background="@drawable/efun_pd_person_reset_info_btn_bg_selector"
+                            android:gravity="center"
+                            android:text="@string/efun_pd_reset_per_info"
+                            android:textColor="@color/efun_pd_text_white_to_c3c3c6_selecter"
+                            android:textSize="@dimen/e_text_size_36" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/person_nickName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/e_size_50"
+                        android:layout_marginTop="@dimen/e_size_86"
+                        android:layout_toRightOf="@id/head_icon"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/e_text_size_36" />
+
+                    <LinearLayout
+                        android:id="@+id/person_accountName_linearlayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/person_nickName"
+                        android:layout_marginLeft="@dimen/e_size_50"
+                        android:layout_marginTop="@dimen/e_size_30"
+                        android:layout_toRightOf="@id/head_icon"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/person_accountName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <ImageView
+                            android:id="@+id/person_vip_icon"
+                            android:layout_width="@dimen/e_size_64"
+                            android:layout_height="@dimen/e_size_30"
+                            android:layout_marginLeft="@dimen/e_size_16"
+                            android:background="@drawable/efun_pd_person_isnotvip_icon" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/person_accountId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/person_accountName_linearlayout"
+                        android:layout_marginLeft="@dimen/e_size_50"
+                        android:layout_marginTop="@dimen/e_size_30"
+                        android:layout_toRightOf="@id/head_icon"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone"
+                        android:textSize="@dimen/e_text_size_36" />
+
+                    <LinearLayout
+                        android:id="@+id/person_bind_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/person_accountId"
+                        android:layout_marginLeft="@dimen/e_size_50"
+                        android:layout_marginTop="@dimen/e_size_30"
+                        android:layout_toRightOf="@id/head_icon"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_31"
+                            android:layout_height="@dimen/e_size_57"
+                            android:src="@drawable/efun_pd_person_phone_white_ico" />
+
+                        <TextView
+                            android:id="@+id/person_bind_phone_dec"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/e_size_10"
+                            android:text="绑定手机绑定手机绑定手机"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_36" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/person_sign_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/person_bind_phone"
+                        android:layout_marginLeft="@dimen/e_size_50"
+                        android:layout_marginTop="@dimen/e_size_30"
+                        android:layout_toRightOf="@id/head_icon"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/person_signin_btn"
+                            android:layout_width="@dimen/e_size_220"
+                            android:layout_height="@dimen/e_size_80"
+                            android:gravity="center"
+                            android:textColor="@color/e_ffffff"
+                            android:background="@drawable/efun_pd_cons_2cd7d1_bg"
+                            android:textSize="@dimen/e_text_size_36"
+                            android:text="@string/efun_pd_person_sign_in"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/e_size_20"
+                            android:text="@string/efun_pd_person_sign_in_desc1"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <TextView
+                            android:id="@+id/person_signin_days"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/e_2cd7d1"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/efun_pd_person_sign_in_desc2"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_36" />
+                    </LinearLayout>
+                    
+                    
+                </RelativeLayout>
+                <!-- 第二部分 -->
+
+                <LinearLayout
+                    android:id="@+id/person_body_container1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person_head_contaier_layout"
+                    android:background="@android:color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/e_size_10"
+                    android:paddingTop="@dimen/e_size_10" >
+
+                    <!-- 经验等级 -->
+
+                    <LinearLayout
+                        android:id="@+id/person_exper_member_dec"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/person_exper_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="骑士"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <ImageView
+                            android:id="@+id/person_exper_icon"
+                            android:layout_width="@dimen/e_size_100"
+                            android:layout_height="@dimen/e_size_100"
+                            android:layout_marginLeft="@dimen/e_size_30"
+                            android:background="@drawable/efun_pd_person_level_1_icon" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_70"
+                        android:background="@color/e_d5d5d5" />
+
+                    <!-- 积分 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/efun_pd_credit_title"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <TextView
+                            android:id="@+id/item_content"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/e_size_20"
+                            android:text="1000"
+                            android:textColor="@color/e_00b7ee"
+                            android:textSize="@dimen/e_text_size_36" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_70"
+                        android:background="@color/e_d5d5d5" />
+                    <!-- 平台点 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/efun_pd_special_point"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <TextView
+                            android:id="@+id/item_point"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/e_size_20"
+                            android:text="1000"
+                            android:textColor="@color/e_00b7ee"
+                            android:textSize="@dimen/e_text_size_36" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 储值 -->
+
+                <LinearLayout
+                    android:id="@+id/person_recharge_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person_body_container1"
+                    android:layout_marginTop="@dimen/e_size_10"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/e_size_24"
+                    android:paddingLeft="@dimen/e_size_61"
+                    android:paddingRight="@dimen/e_size_61"
+                    android:paddingTop="@dimen/e_size_24"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/person_recharge"
+                            android:layout_width="@dimen/e_size_282"
+                            android:layout_height="@dimen/e_size_85"
+                            android:background="@drawable/efun_pd_person_recharge_bg_selector"
+                            android:gravity="center"
+                            android:text="@string/efun_pd_recharge"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_52" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/person_recharge_record"
+                            android:layout_width="@dimen/e_size_282"
+                            android:layout_height="@dimen/e_size_85"
+                            android:background="@drawable/efun_pd_person_recharge_bg_selector"
+                            android:gravity="center"
+                            android:text="@string/efun_pd_recharge_record"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_52" />
+                    </LinearLayout>
+                    <!--
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="@dimen/e_size_282"
+                            android:layout_height="@dimen/e_size_85"
+                            android:background="@drawable/efun_pd_person_recharge_bg_selector"
+                            android:gravity="center"
+                            android:text="@string/efun_pd_recharge_rebate_offer"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/e_text_size_52" />
+                    </LinearLayout>
+                    -->
+                </LinearLayout>
+
+                <!-- 拓展功能点 -->
+                <LinearLayout
+                    android:id="@+id/person_body_tuozhan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person_recharge_body"
+                    android:layout_marginTop="@dimen/e_size_10"
+                    android:background="@android:color/white"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+<!--                 <LinearLayout
+                    android:id="@+id/person_body_tuozhan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person_recharge_body"
+                    android:layout_marginTop="@dimen/e_size_10"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/e_size_78"
+                    android:paddingRight="@dimen/e_size_78" >
+
+                    <LinearLayout
+                        android:id="@+id/person_egg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_gash_new_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_egg"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/e_size_3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/e_size_59"
+                            android:layout_marginRight="@dimen/e_size_59"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:background="@color/e_d5d5d5" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_170"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/e_d5d5d5" />
+
+                    <LinearLayout
+                        android:id="@+id/person_scratch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_scratch_new_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_scratch"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/e_size_3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/e_size_59"
+                            android:layout_marginRight="@dimen/e_size_59"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:background="@color/e_d5d5d5" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_170"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/e_d5d5d5" />
+
+                    <LinearLayout
+                        android:id="@+id/person_gift_serial"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_serial_new_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_serial_center"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/e_size_3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/e_size_59"
+                            android:layout_marginRight="@dimen/e_size_59"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:background="@color/e_d5d5d5" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/person_body_tuozhan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person_body_tuozhan1"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/e_size_78"
+                    android:paddingRight="@dimen/e_size_78" >
+
+                    <LinearLayout
+                        android:id="@+id/person_gift"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_gift_new_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_gifts_downloads"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/e_size_3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/e_size_59"
+                            android:layout_marginRight="@dimen/e_size_59"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:background="@color/e_d5d5d5" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_170"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/e_d5d5d5" />
+
+                    <LinearLayout
+                        android:id="@+id/person_red_person"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_hongrenguan_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_red_person"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/e_size_3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/e_size_59"
+                            android:layout_marginRight="@dimen/e_size_59"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:background="@color/e_d5d5d5" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_170"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/e_d5d5d5" />
+
+                    <LinearLayout
+                        android:id="@+id/person_charge_progress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_recharge_progress_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_recharge_progress"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/e_size_3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/e_size_59"
+                            android:layout_marginRight="@dimen/e_size_59"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:background="@color/e_d5d5d5" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/person_body_tuozhan3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person_body_tuozhan2"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:paddingLeft="@dimen/e_size_78"
+                    android:paddingRight="@dimen/e_size_78" >
+
+                    <LinearLayout
+                        android:id="@+id/person_vip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/efun_pd_person_item_bg_selector"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="@dimen/e_size_95"
+                            android:layout_height="@dimen/e_size_125"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/e_size_40"
+                            android:src="@drawable/efun_pd_person_vip_new_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="@dimen/e_size_25"
+                            android:layout_marginTop="@dimen/e_size_25"
+                            android:text="@string/efun_pd_vip"
+                            android:textColor="@color/e_818181"
+                            android:textSize="@dimen/e_text_size_36" />
+
+                        
+                         <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/e_size_3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/e_size_59"
+                        android:layout_marginRight="@dimen/e_size_59"
+                        android:layout_marginTop="@dimen/e_size_25"
+                        android:background="@color/e_d5d5d5" />
+                       
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/e_size_3"
+                        android:layout_height="@dimen/e_size_170"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/e_d5d5d5" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        
+                    <ImageView
+                        android:layout_width="@dimen/e_size_95"
+                        android:layout_height="@dimen/e_size_125"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/e_size_40"
+                        android:src="@drawable/efun_pd_person_hongrenguan_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/e_size_25"
+                        android:text="@string/efun_pd_red_person"
+                        android:textColor="@color/e_818181"
+                        android:textSize="@dimen/e_text_size_36" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/e_size_3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/e_size_59"
+                        android:layout_marginRight="@dimen/e_size_59"
+                        android:layout_marginTop="@dimen/e_size_25"
+                        android:background="@color/e_d5d5d5" />
+                       
+                    </LinearLayout>
+
+                    
+                     <View
+                    android:layout_width="@dimen/e_size_3"
+                    android:layout_height="@dimen/e_size_170"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/e_d5d5d5" />
+                   
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        
+                    <ImageView
+                        android:layout_width="@dimen/e_size_95"
+                        android:layout_height="@dimen/e_size_125"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/e_size_40"
+                        android:src="@drawable/efun_pd_person_recharge_progress_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/e_size_25"
+                        android:text="@string/efun_pd_recharge_progress"
+                        android:textColor="@color/e_818181"
+                        android:textSize="@dimen/e_text_size_36" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/e_size_3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/e_size_59"
+                        android:layout_marginRight="@dimen/e_size_59"
+                        android:layout_marginTop="@dimen/e_size_25"
+                        android:background="@color/e_d5d5d5" />
+                       
+                    </LinearLayout>
+                </LinearLayout> -->
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

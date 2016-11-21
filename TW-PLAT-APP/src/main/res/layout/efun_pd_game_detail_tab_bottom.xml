@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/e_size_160"
+    android:background="@drawable/efun_pd_game_detail_tab_bottom_selecter"
+    android:paddingTop="@dimen/e_size_40"
+    android:paddingBottom="@dimen/e_size_40" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:duplicateParentState="true"
+            android:layout_width="@dimen/e_size_90"
+            android:layout_height="@dimen/e_size_90">
+        </ImageView>
+        <TextView 
+            android:layout_marginLeft="@dimen/e_size_20"
+            android:id="@+id/item_text"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_45"
+            android:textColor="@color/efun_pd_text_white_to_black_selecter"/>
+    </LinearLayout>
+
+</RelativeLayout>

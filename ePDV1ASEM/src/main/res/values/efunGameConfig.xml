@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- 游戏编码 -->
+	<string name="efunGameCode">smjqzs</string>
+	<!-- 语言种类 -->
+	<string name="efunLanguage">zh_CH</string>
+
+    <string name="efunFBApplicationId">698823243590216</string>
+    
+    <string name="efun_pd_tracking_id">UA-81893843-1</string>
+    
+    <string name="efun_pd_url_base">http://pf.efunen.com/</string>
+    <string name="efun_pd_url_game_base">http://game.efun.com/</string>
+    <string name="efun_pd_url_game_base_spa">http://gamesea.efunsea.com/</string>
+    <string name="efun_pd_url_web_base">http://m.efunen.com/</string>
+	<string name="efun_pd_url_fb_base">http://fb.efun.com/</string>
+	<string name="efun_pd_url_fb_base_spa">http://fbsea.efunsea.com/</string>
+	
+	<string name="efun_pd_url_ads_base">http://ad.efun.com/</string>
+	<string name="efun_pd_url_ads_base_spa">http://ad.efun.com/</string>
+	
+	<string name="efunAdsPreferredUrl">http://ad.efun.com/</string>
+	<string name="efunAdsSpareUrl">http://ad.efun.com/</string>
+	
+	<string name="efun_pd_url_login_base">http://login.efun.com/</string>
+	<string name="efun_pd_url_login_base_spa">http://loginsea.efunsea.com/</string>
+	
+	<string name="efun_pd_url_img_upload_base">http://imgi.efun.com/</string>
+	<string name="efun_pd_url_img_upload_base_spa">http://imgi.efun.com/</string>
+	
+	<string name="efun_pd_url_pay_base">http://pay.efun.com/</string>
+	<string name="efun_pd_url_pay_base_spa">http://paysea.efunsea.com/</string>
+	
+	<string name="efun_pd_url_activity_base">http://activity.efun.com/</string>
+	<string name="efun_pd_url_game_icon_base">http://image.download.vsplay.com/game/twicon/</string>
+	
+	<string name="efun_pd_url_stat_data_base">http://dc.efun.com/</string>
+	
+	<string name="efun_pd_sdk_cdn_download_base">http://sdk.download.efun.com/</string>
+	<string name="efun_pd_sdk_cdn_download_spa">http://sdk.downloadsea.efunsea.com/</string>
+	
+	<!-- 推送域名和端口 -->
+	<string name="efun_pd_url_push_base">push.efun.com</string>
+	<string name="efun_pd_url_push_port_base">57114</string>
+	
+    
+    <string name="efun_pd_sdk_download_efunVersionCode">http://sdk.download.efun.com/smjqzs/pfandroid/efunVersionCode.txt</string>
+	<string name="efun_pd_sdk_downloadtw_efunVersionCode">http://sdk.download.efun.com/smjqzs/pfandroid/efunVersionCode.txt</string>
+	<string name="efun_pd_sdk_download_efunDomainInventory">http://sdk.download.efun.com/smjqzs/pfandroid/efunDomainInventory.txt</string>
+	<string name="efun_pd_sdk_downloadtw_efunDomainInventory">http://sdk.download.efun.com/smjqzs/pfandroid/efunDomainInventory.txt</string>
+	
+	<!-- S2S接入广告的类类名 -->
+    <string name="efunS2SListenerName">com.efun.platform.module.ads.S2SAdvert</string>
+    <string name="efunGAListenerName">com.efun.platform.module.ads.GAAdvert</string>
+
+	<string name="eee_login_url">http://login.efun.com/</string>
+	<string name="interface_login">pcLogin_login.shtml</string>
+	<string name="interface_third_login">pcLogin_thirdPlateLogin2.shtml</string>
+	<string name="interface_third_register">pcLogin_register.shtml</string>
+
+	<string name="member_getMemberInfoByToken">member_getMemberInfoByToken.shtml</string>
+
+</resources>

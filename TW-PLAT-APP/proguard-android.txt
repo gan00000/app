@@ -1,0 +1,205 @@
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+-dontusemixedcaseclassnames
+#指定不去忽略非公共的类库
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Optimization is turned off by default. Dex does not like code run
+# through the ProGuard optimize and preverify steps (and performs some
+# of these optimizations on its own).
+-dontoptimize
+-dontpreverify
+# Note that if you want to enable optimization, you cannot just
+# include optimization flags in your own project configuration file;
+# instead you will need to point to the
+# "proguard-android-optimize.txt" file instead of this one from your
+# project.properties file.
+
+-keepattributes *Annotation*
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+-dontwarn android.support.**
+
+-dontwarn
+efun-ads-2.6.2.**
+-dontwarn
+efun-fb-share-3.3.**
+-dontwarn
+efun-push-notifition-3.3.**
+-dontwarn
+efun-twitter-share-1.0.**
+-dontwarn
+zxing-2.1.**
+-dontwarn
+nineoldandroids-2.4.0.**
+-dontwarn
+google-play-services_lib_9256000.**
+-dontwarn efun-downloader.**
+-dontwarn bolts.**
+-dontwarn com.facebook.**
+-dontwarn
+AF-Android-SDK-v2.3.1.18.**
+-dontwarn com.appsflyer.**
+
+-dontwarn
+GoogleConversionTrackingSdk-2.2.4.**
+-dontwarn
+signpost-commonshttp4-1.2.1.1.**
+-dontwarn
+signpost-core-1.2.1.1.**
+
+-libraryjars libs/twitter4j-core.jar
+-dontwarn    twitter4j.*
+
+-libraryjars libs/twitter4j-media.jar
+-dontwarn    twitter4j.media.*
+
+-libraryjars libs/efun-utils-5.2.jar
+-dontwarn    com.efun.core.*
+
+-libraryjars libs/efun-ads-2.6.2.jar
+-dontwarn com.efun.ads.analytics.*
+
+#-libraryjars libs/facebooksdk-3.16.0.jar
+-dontwarn    com.facebook.*
+
+#-libraryjars libs/efun-google-service-9256000-2.jar
+-dontwarn    com.efun.google.*
+
+#-libraryjars libs/play-services-analytics-8.4.0.jar
+
+#-libraryjars libs/play-services-auth-8.4.0.jar
+
+#-libraryjars libs/play-services-base-8.4.0.jar
+
+#-libraryjars libs/play-services-basement-8.4.0.jar
+
+#-libraryjars libs/play-services-identity-8.4.0.jar
+
+#-libraryjars libs/play-services-plus-8.4.0.jar
+-dontwarn    com.google.android.gms.*
+
+-libraryjars libs/efun-downloader.jar
+-dontwarn	com.efun.download.*
+-dontwarn	com.efun.*
+
+-dontwarn    org.apache.commons.*
+-dontwarn    java.lang.management.*
+-dontwarn    javax.management.openmbean.*
+-dontwarn    android.*
+-dontwarn    org.slf4j.*
+-dontwarn    org.apache.log4j.*
+-dontwarn    javax.management.*
+-dontwarn    android.webkit.*
+-dontwarn    org.apache.commons.codec.binary.*
+-dontwarn    org.apache.commons.logging.*
+-dontwarn    android.content.pm.*
+-dontwarn    org.apache.commons.lang3.*
+-dontwarn    android.app.*
+-dontwarn    com.efun.ads.activity.*
+-dontwarn    com.efun.ads.call.*
+
+
+
+-keep interface com.efun.ads.callback.S2SListener { * ; }
+-keep interface com.efun.platform.http.dao.impl.IPlatformRequest { * ; }
+
+-keep class com.efun.ads.bean.AdsHttpParams { * ; }
+-keep class com.efun.ads.call.EfunAdsPlatform { * ; }
+-keep class com.efun.ads.call.EfunGoogleAnalytics { * ; }
+-keep class com.efun.ads.activity.EfunGAService { * ; }
+-keep class com.efun.platform.module.ads.S2SAdvert { * ; }
+-keep class com.efun.platform.http.dao.impl.IPlatformImpl { * ; }
+-keep class com.efun.facebook.share.activity.EfunFacebookCommonUtil { * ; }
+-keep class com.facebook.widget.FacebookDialog$ShareDialogBuilder { * ; }
+-keep class com.efun.pushnotification.task.EfunPushManager { * ; }
+-keep class com.efun.core.tools.EfunLogUtil { * ; }
+-keep class com.efun.core.tools.EfunScreenUtil { * ; }
+-keep class com.efun.core.db.EfunDatabase { * ; }
+-keep class com.efun.core.tools.EfunLocalUtil { * ; }
+-keep class com.efun.core.tools.EfunStringUtil { * ; }
+-keep class com.efun.core.tools.EfunResourceUtil { * ; }
+-keep class com.efun.core.http.EfunHttpUtil { * ; }
+-keep class com.efun.core.url.EfunDynamicUrl { * ; }
+-keep class com.efun.core.task.command.abstracts.EfunCommand { * ; }
+-keep class com.efun.core.task.EfunCommandCallBack { * ; }
+-keep class com.efun.google.share.entrance.EfunGoogleShare { * ; }
+-keep class com.google.zxing.** { * ; }
+-keep class com.nineoldandroids.animation.ObjectAnimator { * ; }
+-keep class com.efun.platform.module.account.util。GoogleSignIn { * ; }
+-keep class com.google.** { * ; }
+-keep class com.google.android.gms.common.GooglePlayServicesUtil.** { * ; }
+-keep class com.google.android.gms.internal.** { * ; }
+-keep class com.google.android.gms.** { * ; }
+#-keep class com.efun.platform.module.account.activity.LoginActivity{ * ; }
+#-keep class com.efun.platform.module.account.** { * ; }
+-keep class com.facebook.** { * ; }
+-keep public class com.efun.platform.http.request.bean.BaseRequestBean { * ; }
+-keep public class * extends com.efun.platform.http.request.bean.BaseRequestBean { * ; }
+-keep class com.appsflyer.** { * ; }
+-keep class com.appsflyer.cache.** { * ; }
+-keep class twitter4j.** { * ; }
+-keep class twitter4j.media.** { * ; }
+-keep class com.efun.core.component.EfunWebChromeClient { * ; }
+-keep class com.efun.core.component.EfunWebView { * ; }
+-keep class com.efun.core.js.UploadHandler { * ; }
+-keep class com.efun.core.tools.PermissionUtil { * ; }
+-keep class com.efun.twitter.plugin.TwitterApp { * ; }
+-keep class android.support.** { * ; }
+-keep class org.apache.commons.** { * ; }
+-keep class java.lang.management.** { * ; }
+-keep class javax.management.openmbean.** { * ; }
+-keep class android.** { * ; }
+-keep class org.slf4j.** { * ; }
+-keep class org.apache.log4j.** { * ; }
+-keep class javax.management.** { * ; }
+-keep class android.webkit.** { * ; }
+-keep class org.apache.commons.codec.binary.** { * ; }
+-keep class org.apache.commons.logging.** { * ; }
+-keep class android.content.pm.** { * ; }
+-keep class org.apache.commons.lang3.** { * ; }
+-keep class android.app.** { * ; }
+-keep class com.efun.core.component.** { * ; }
+-keep class com.efun.core.js.** { * ; }
+
+#-keepclassmembers class LoginActivity extends com.efun.platform.module.base.FixedActivity {
+#   public void GoogleLogin(com.efun.platform.module.account.util.OnLoginListener);
+#}
+

@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        res {
+            keyAlias 'efuntw.platform'
+            keyPassword 'efun1225'
+            storeFile file('E:/workspace/AndroidStudioProjects/EfunPlatformsApp/TW-PLAT-APP/keystore/EfunPlatformTw.keystone')
+            storePassword 'efun1225'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "com.efun.game.tw"
+        minSdkVersion 11
+        targetSdkVersion 22
+        versionCode 96
+        versionName "2.2.2"
+        signingConfig signingConfigs.res
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            //定义一个文件
+            def outputFile = output.outputFile
+            //定义存储apk的位置和文件名，这里文件名格式定义为 [applicationId_版本号_ReleaseTime_apk]
+            if (outputFile != null && outputFile.name.contains("release") && outputFile.name.endsWith('.apk')) {
+
+                def fileName = "${variant.applicationId}_${variant.versionCode}_${variant.versionName}_${getReleaseTime()}.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles 'proguard-android.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':google-play-services_lib_9256000')
+    compile files('libs/AF-Android-SDK-v2.3.1.18.jar')
+    compile files('libs/efun-ads-2.6.2.jar')
+    compile files('libs/efun-downloader.jar')
+    compile files('libs/efun-fb-share-3.3.jar')
+    compile files('libs/efun-push-notifition-3.3.jar')
+    compile files('libs/efun-twitter-share-1.0.jar')
+    compile files('libs/efun-utils-5.2.jar')
+    compile files('libs/GoogleConversionTrackingSdk-2.2.4.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/signpost-commonshttp4-1.2.1.1.jar')
+    compile files('libs/signpost-core-1.2.1.1.jar')
+    compile files('libs/twitter4j-core.jar')
+    compile files('libs/twitter4j-media.jar')
+    compile files('libs/zxing-2.1.jar')
+    compile project(':FacebookSDK-3.16.0')
+    compile project(':lib')
+    compile project(':tablayoutsupport')
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+}
+
+
+def getReleaseTime() {
+    return new Date().format("yyyy-MM-dd-HH-mm", TimeZone.getTimeZone("UTC"))
+}

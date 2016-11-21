@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/e_size_290"
+    android:background="@drawable/efun_pd_list_item_bg_selector"
+    android:paddingTop="@dimen/e_size_35"
+    android:paddingLeft="@dimen/e_size_60"
+    android:paddingRight="@dimen/e_size_60" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/e_size_16"
+        android:paddingTop="@dimen/e_size_16" >
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="@dimen/e_size_190"
+            android:layout_height="@dimen/e_size_190" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/e_size_35" >
+
+            <TextView
+                android:id="@+id/item_title"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/e_353434"
+                android:textSize="@dimen/e_text_size_48" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/e_size_60"
+            android:layout_height="@dimen/e_size_60"
+            android:background="@drawable/efun_pd_achieve_list_item_right_icon"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:layout_marginTop="@dimen/e_size_28"
+        android:layout_alignParentBottom="true"
+        android:background="@color/e_a7a7a7" />
+
+</RelativeLayout>

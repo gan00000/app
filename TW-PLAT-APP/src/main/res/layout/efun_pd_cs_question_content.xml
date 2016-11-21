@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.efun.platform.widget.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.efun.platform.widget.TitleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_150"
+            android:background="@color/e_c3e5f2"
+            android:gravity="center"
+            android:paddingBottom="@dimen/e_size_10"
+            android:paddingTop="@dimen/e_size_10"
+            android:paddingLeft="@dimen/e_size_62"
+            android:paddingRight="@dimen/e_size_62"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/e_text_size_50"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"            
+            android:paddingTop="@dimen/e_size_40"
+            android:paddingLeft="@dimen/e_size_62"
+            android:paddingRight="@dimen/e_size_62"
+            android:textColor="@color/e_353434"
+            android:textSize="@dimen/e_text_size_40"
+            android:lineSpacingExtra="@dimen/e_size_2"
+            android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+
+</LinearLayout>

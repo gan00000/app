@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- 图形的大小 -->
+    <size
+        android:height="@dimen/e_size_10"
+        android:width="@dimen/e_size_217" >
+    </size>
+
+    <solid android:color="@color/e_5aa9ff" >
+    </solid>
+
+</shape>

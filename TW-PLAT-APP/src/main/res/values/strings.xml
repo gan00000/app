@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Efun遊戲平台</string>
+    
+   
+    <string name="efun_pd_logout">再次點擊退出!</string>
+    <string name="efun_pd_reset_account_hint">點擊切換帳號</string>
+    <string name="efun_pd_share_2">Share 至以下平台</string>
+    <string name="efun_pd_loading">Loading</string>
+    <string name="efun_pd_push_loading">正在加載ing,請稍等一會</string>
+    <string name="efun_pd_recommended_games">推薦遊戲</string>
+    <string name="efun_pd_recommended_games_more">顯示全部</string>
+    <string name="efun_pd_games_summary">遊戲資訊</string>
+    <string name="efun_pd_download_for_reward">下載送點數</string>
+    <string name="efun_pd_xlistview_header_hint_normal">下拉刷新</string>
+    <string name="efun_pd_xlistview_header_hint_ready">放開我,人家正在加載了喇</string>
+    <string name="efun_pd_xlistview_header_hint_loading">正在愉快加載ing</string>
+    <string name="efun_pd_xlistview_header_last_time">上次更新時間:</string>
+    <string name="efun_pd_xlistview_footer_hint_normal">查看更多</string>
+    <string name="efun_pd_xlistview_footer_hint_ready">松開載入更多</string>
+    <string name="efun_pd_xlistview_time_now">剛剛</string>
+    <string name="efun_pd_xlistview_time_minutes">分鐘前</string>
+    <string name="efun_pd_network_error">網絡未連接,請檢查你的網絡狀況</string>
+    <string name="efun_pd_request_error">請求異常了,請點擊圖片重新嘗試</string>
+    <string name="efun_pd_timeout_error">請求超時了,請點擊圖片重新嘗試</string>
+    <string name="efun_pd_empty_error">暫無數據,請稍後再試</string>
+    <string name="efun_pd_vedio">視頻</string>
+    <string name="efun_pd_game">遊戲</string>
+    <string name="efun_pd_welfare">好康</string>
+    <string name="efun_pd_summary">資訊</string>
+    <string name="efun_pd_knock_code">序號:</string>
+    <string name="efun_pd_code_center">我的序號中心</string>
+    <string name="efun_pd_gift_detail">禮包詳情</string>
+    <string name="efun_pd_act">活動</string>
+    <string name="efun_pd_act_content">活動內容</string>
+    <string name="efun_pd_news">新聞</string>
+    <string name="efun_pd_summary_content">資訊內容</string>
+    <string name="efun_pd_receive_awards">免費點數</string>
+    <string name="efun_pd_gifts_downloads">禮包中心</string>
+    <string name="efun_pd_gifts_type_fresher">新手禮包</string>
+    <string name="efun_pd_gifts_type_timelimit">限免禮包</string>
+    <string name="efun_pd_gifts_type_unique">專屬禮包</string>
+    <string name="efun_pd_cs">客服</string>
+    <string name="efun_pd_strategy">攻略</string>
+    <string name="efun_pd_code">QR Code掃描</string>
+    <string name="efun_pd_set">設定</string>
+    <string name="efun_pd_sure">確定</string>
+    <string name="efun_pd_check">查看</string>
+    <string name="efun_pd_cancel">取消</string>
+    <string name="efun_pd_games_intro">遊戲介紹：</string>
+    <string name="efun_pd_games_commend_score">這個游戲的平均評分：</string>
+    <string name="efun_pd_games_new_version">新版本介紹：</string>
+    <string name="efun_pd_games_show_all">了解更多</string>
+    <string name="efun_pd_games_write_commend">撰寫評論</string>
+    <string name="efun_pd_games_write_commend_finish">已評論</string>
+    <string name="efun_pd_games_vote_send">發送</string>
+    <string name="efun_pd_games_vote_edit_title">輕按即可</string>
+    <string name="efun_pd_games_vote_edit_hint">評論內容（限定200個字以內）</string>
+    <string name="efun_pd_games_show_all_return">回收起</string>
+    <string name="efun_pd_games_get_achieve">你獲得的遊戲成就</string>
+    <string name="efun_pd_games_title_achieve">成就中心</string>
+    <string name="efun_pd_i_wanna_commend">我要評論</string>
+    <string name="efun_pd_download_en">Download</string>
+    <string name="efun_pd_start_en">Start</string>
+    <string name="efun_pd_update_en">Update</string>
+    <string name="efun_pd_update_ok">好哦</string>
+    <string name="efun_pd_update_cancel">不要</string>
+    <string name="efun_pd_account_bind">手機號碼驗證</string>
+    <string name="efun_pd_bind_account">簡訊驗證</string>
+    <string name="efun_pd_account">手機號碼</string>
+    <string name="efun_pd_verify_code">驗證碼　</string>
+    <string name="efun_pd_finish_verify">完成驗證</string>
+    <string name="efun_pd_phone_yourself_hint">您的手機號碼（僅限台灣用戶）</string>
+    <string name="efun_pd_account_hint">輸入手機號碼</string>
+    <string name="efun_pd_verify_code_hint">輸入驗證碼</string>
+    <string name="efun_pd_verify_code_title">輸入驗證碼：</string>
+    <string name="efun_pd_get_verify_code">獲取驗證碼</string>
+    <string name="efun_pd_get_awards">領取獎勵</string>
+    <string name="efun_pd_all_awards_has_get">點數已搶光</string>
+    <string name="efun_pd_get_gift_content">禮包內容</string>
+    <string name="efun_pd_get_awards_rule">規則說明</string>
+    <string name="efun_pd_awards_type_title">選擇適合你的獎勵</string>
+    <string name="efun_pd_commend">評論</string>
+    <string name="efun_pd_share">分享</string>
+    <string name="efun_pd_get_reword">領取記錄</string>
+    <string name="efun_pd_start_app">啟動游戲</string>
+    <string name="efun_pd_copy">複製</string>
+    <string name="efun_pd_rob">立即搶</string>
+    <string name="efun_pd_robed">這禮包你已擁有</string>
+    <string name="efun_pd_copy_success">序號已複製</string>
+    <string name="efun_pd_copy_pw">密碼已複製</string>
+    <string name="efun_pd_reward_rate">中獎率</string>
+    <string name="efun_pd_gift_count">禮包數量</string>
+    <string name="efun_pd_hint_gift_knocked">恭喜您成功搶到一個禮包</string>
+    <string name="efun_pd_egg">開心砸蛋</string>
+    <string name="efun_pd_scratch">儲值刮刮樂</string>
+    <string name="efun_pd_red_person">紅人館</string>
+    <string name="efun_pd_member_desc">會員說明</string>
+    <string name="efun_pd_vip">VIP俱樂部</string>
+    <string name="efun_pd_rest">剩餘：</string>
+    <string name="efun_pd_end_date">截止時間：</string>
+    <string name="efun_pd_category">類型</string>
+    <string name="efun_pd_description">描述</string>
+    <string name="efun_pd_email">Email信箱</string>
+    <string name="efun_pd_phone">聯絡電話</string>
+    <string name="efun_pd_ask">我要提問</string>
+    <string name="efun_pd_question">常見問題</string>
+   	<string name="efun_pd_remain_gift">禮包還剩：</string>
+    <string name="efun_pd_cs_ask_notify">*留下你的聯絡方式</string>
+    <string name="efun_pd_submit">確定</string>
+    <string name="efun_pd_save">儲存</string>
+    <string name="efun_pd_edit">編輯</string>
+    <string name="efun_pd_share_success">分享成功</string>
+    <string name="efun_pd_share_failure">分享失敗</string>
+    <string name="efun_pd_login_exception">登入異常</string>
+    <string name="efun_pd_chose_game">選擇遊戲</string>
+    <string name="efun_pd_chose_server">選擇伺服器</string>
+    <string name="efun_pd_chose_role">選擇角色</string>
+    <string name="efun_pd_cs_tip">貼心提示：沒有綁定Efun帳號的LINE用戶無法選擇遊戲角色</string>
+    <string name="efun_pd_history">歷史記錄</string>
+    <string name="efun_pd_your_question">我的問題</string>
+    <string name="efun_pd_your_question_title">您的問題是:</string>
+    <string name="efun_pd_cs_reply">客服回覆</string>
+    <string name="efun_pd_cs_reply_record">回覆記錄</string>
+    <string name="efun_pd_reply">回覆</string>
+    <string name="efun_pd_question_title">問題</string>
+    <string name="efun_pd_dimensional_url_error">鏈接地址有誤！</string>
+    <string name="efun_pd_logo_start_content">台灣英旗互動娛樂有限公司</string>
+    <string name="efun_pd_login_authoriza_account">是否授權使用Efun游戲平台帳號登入？</string>
+    <string name="efun_pd_login_authoriza_submit">確認授權</string>
+    <string name="efun_pd_login_error_timeout">您當前的登入訊息已過期，請重新登入喔</string>
+    <string name="efun_pd_login_error_pwd">您當前的登入密碼進行過更新，請重新登入喔</string>
+    <string name="efun_pd_person_sign_in">簽到</string>
+	<string name="efun_pd_person_sign_in_desc1">已連續簽到</string>
+	<string name="efun_pd_person_sign_in_desc2">天</string>
+	<string name="efun_pd_person_sign_gift_get_resc">領取簽到禮包</string>
+	<string name="efun_pd_has_signined">已簽到</string>
+	<string name="efun_pd_get_reward">領取禮包</string>
+	<string name="efun_pd_sign_tips_fist">禮包序號：</string>
+	
+    
+    <string name="efun_pd_role_cs">客服</string>
+    <string name="efun_pd_role_self">我</string>
+    <string name="efun_pd_finish_question">滿意度評分</string>
+    <string name="efun_pd_replay_ask_again">我要追問</string>
+    <string name="efun_pd_i_ask_again">我的追問</string>
+    <string name="efun_pd_your_ask_again">你的追問</string>
+    <string name="efun_pd_finished">已完結</string>
+    <string name="efun_pd_regist_log">註冊/登入</string>
+    <string name="efun_pd_recharge_question">儲值問題</string>
+    <string name="efun_pd_recharge">儲值</string>
+    <string name="efun_pd_recharge_record">儲值記錄</string>
+    <string name="efun_pd_recharge_rebate_offer">返利優惠</string>
+    <string name="efun_pd_credit">積分</string>
+    <string name="efun_pd_credit_title">積分：</string>
+    <string name="efun_pd_exp">經驗</string>
+    <string name="efun_pd_credit_task">積分任務</string>
+    <string name="efun_pd_reward_gift">領取禮包</string>
+    <string name="efun_pd_reward_gift_new_statue">NEW</string>
+    <string name="efun_pd_serial_center">序號中心</string>
+    <string name="efun_pd_recharge_progress">匯款（轉帳）進度</string>
+    <string name="efun_pd_person_evip">VIP俱樂部</string>
+    <string name="efun_pd_manager_account">帳號管理</string>
+    <string name="efun_pd_special_power">特權</string>
+    <string name="efun_pd_special_point">平台點：</string>
+    <string name="efun_pd_person_point">平台點</string>
+    <string name="efun_pd_persion_reset_password_info">設置最新的帳號密碼</string>
+    <string name="efun_pd_current_password">舊密碼</string>
+    <string name="efun_pd_new_password">新密碼</string>
+    <string name="efun_pd_new_password_notify">密碼由6-16個字符組成,區分大小寫</string>
+    <string name="efun_pd_confirm_password">確認密碼</string>
+    <string name="efun_pd_reset_password">更新密碼</string>
+    <string name="efun_pd_reset_per_info">更新個人資料</string>
+    <string name="efun_pd_reset_per_title">個人資料</string>
+    <string name="efun_pd_reset_per_safe_setting">更新安全設置</string>
+    <string name="efun_pd_reset_per_bind_phone">更新綁定手機號碼</string>
+    <string name="efun_pd_reset_per_bind_email">更新Email信箱地址</string>
+    <string name="efun_pd_reset_account">切換帳號</string>
+    <string name="efun_pd_bind_email">綁定Email信箱地址</string>
+    <string name="efun_pd_reset_email_or_phone">更新Email信箱地址或手機號碼</string>
+    <string name="efun_pd_reset_email">Email信箱地址更新</string>
+    <string name="efun_pd_reset_old_email">原Email信箱：</string>
+    <string name="efun_pd_reset_new_email">新Email信箱：</string>
+    <string name="efun_pd_reset_send_veri_email">確認綁定</string>
+    <string name="efun_pd_reset_send_veri_phone">發送驗證碼</string>
+    <string name="efun_pd_reset_phone">綁定手機更新</string>
+    <string name="efun_pd_bind_phone_title">綁定手機號碼</string>
+    <string name="efun_pd_bind_email_title">綁定Email信箱地址</string>
+    <string name="efun_pd_bind_phone_choice_area">請選擇地區</string>
+    <string name="efun_pd_reset_old_phone">原手機號碼：</string>
+    <string name="efun_pd_reset_new_phone">新手機號碼：</string>
+    <string name="efun_pd_reset_save">保存</string>
+    <string name="efun_pd_reset_confirm_change">確認修改</string>
+    <string name="efun_pd_reset_title_nick">暱稱：</string>
+    <string name="efun_pd_reset_title_line">我的LINE：</string>
+    <string name="efun_pd_reset_title_sex">性別：</string>
+    <string name="efun_pd_reset_title_birthday">生日：</string>
+    <string name="efun_pd_reset_title_area">地區：</string>
+    <string name="efun_pd_reset_title_detail_adress">詳細地址：</string>
+    <string name="efun_pd_reset_title_phone">手機號碼：</string>
+    <string name="efun_pd_reset_title_email">Email信箱：</string>
+    <string name="efun_pd_reset_title_get_gift_normal">點擊領取完善資料大禮包</string>
+    <string name="efun_pd_reset_title_get_gift_edit">完善*號資料點我領取禮包吧</string>
+    <string name="efun_pd_reset_title_safe_setting">安全設置</string>
+    <string name="efun_pd_reset_not_set">未填寫</string>
+    <string name="efun_pd_reset_reset">更新</string>
+    <string name="efun_pd_reset_bind_phone">去驗證</string>
+    <string name="efun_pd_reset_bind_email">去綁定</string>
+    <string name="efun_pd_reset_point">*</string>
+    <string name="efun_pd_reset_hint_nick">請輸入你的暱稱</string>
+    <string name="efun_pd_reset_hint_line">請輸入你的LINE</string>
+    <string name="efun_pd_reset_change_pwd">更新密碼</string>
+    <string name="efun_pd_reset_set_change_point_pwd">設置轉點密碼</string>
+    <string name="efun_pd_reset_set_change_point_pwd_help">幫助</string>
+    <string name="efun_pd_reset_person_gift_get_resc">資料完善了，太棒了！選個禮包吧～</string>
+    <string name="efun_pd_reset_person_change_pwd_desc">您的密碼已經修改，請重新登入喔</string>
+    <string name="efun_pd_reset_change_point_resc_title">什么是轉點密碼？</string>
+    <string name="efun_pd_reset_change_point_resc_content">轉點密碼由6～9個字符組成，主要用於保障帳戶的資金安全。在首次使用平台點兌換游戲幣（即轉點）時，需要設置轉點密碼。</string>
+    <string name="efun_pd_exit_login">退出登入</string>
+    <string name="efun_pd_gift_limit">領取點數的條件還未達到哦，詳情請看領獎步驟</string>
+    <string name="efun_pd_get_task">領取任務</string>
+    <string name="efun_pd_continue_task">繼續任務</string>
+    <string name="efun_pd_finish_task">任務完成</string>
+    <string name="efun_pd_has_get_gift">已領取</string>
+    <string name="efun_pd_sex">性別</string>
+    <string name="efun_pd_header">頭像</string>
+    <string name="efun_pd_user_level">軍銜:</string>
+    <string name="efun_pd_nick">暱稱</string>
+    <string name="efun_pd_setting_subscription">訂閱</string>
+    <string name="efun_pd_setting_push">推送設置</string>
+    <string name="efun_pd_setting_help">幫助與反饋</string>
+    <string name="efun_pd_setting_help_empty">反饋信息不能為空</string>
+    <string name="efun_pd_setting_appraisal">為Efun遊戲平台評分</string>
+    <string name="efun_pd_setting_help_and_feedback">愛我請留言，不喜歡我的也請告訴我</string>
+    <string name="efun_pd_setting_send_mes">送出想法</string>
+    <string name="efun_pd_setting_push_open">開啟應用推送</string>
+    <string name="efun_pd_setting_push_close">關閉應用推送</string>
+    <string name="efun_pd_check_update">檢測更新</string>
+    <string name="efun_pd_last_version">已是最新版本</string>
+    <string name="efun_pd_new_version">新版本:</string>
+    <string name="efun_pd_push_to_friends">推薦給好友</string>
+    <string name="efun_pd_about_us">關於我們</string>
+    <string name="efun_pd_close">關閉</string>
+    <string name="efun_pd_notification_update_1">人家有新版本辣,要更新一下嗎？</string>
+    <string name="efun_pd_notification_update_2">人家有新版本辣,更新一下吧</string>
+    <string name="efun_pd_has_new">有新回覆</string>
+    <string name="efun_pd_camera_crop_error">您的設備不支持圖片裁切,請到電腦上進行修改</string>
+    <string name="efun_pd_thumb_error">您的設備不支持</string>
+    <string name="efun_pd_gift_getted">已領取獎勵</string>
+    <string name="efun_pd_error_video_url">無效的視頻地址</string>
+    <string name="efun_pd_hint_account">帳戶</string>
+    <string name="efun_pd_hint_password">密碼</string>
+    <string name="efun_pd_hint_password_confirm">重複密碼</string>
+    <string name="efun_pd_hint_register_bind_phone">（選填）</string>
+    <string name="efun_pd_gift_password">密碼:</string>
+    <string name="efun_pd_gift_account">序號:</string>
+    <string name="efun_pd_login_by_facebook">Facebook登入</string>
+    <string name="efun_pd_login_by_google">Google+登入</string>
+    <string name="efun_pd_login_by_bahamut">巴哈登入</string>
+    <string name="efun_pd_login">登入</string>
+    <string name="efun_pd_login_title_login">登入</string>
+    <string name="efun_pd_login_button_login">確認</string>
+    <string name="efun_pd_login_title_register">註冊</string>
+    <string name="efun_pd_login_forget">找回密碼？</string>
+    <string name="efun_pd_login_forget_tips">*填寫已綁定的Email信箱或已驗證的手機號碼</string>
+    <string name="efun_pd_login_register">沒有帳號的先註冊哦～</string>
+    <string name="efun_pd_hint_account_by_bahamut">巴哈 用戶</string>
+    <string name="efun_pd_hint_account_by_facebook">Facebook 用戶</string>
+    <string name="efun_pd_hint_account_by_google">Google+ 用戶</string>
+    <string name="efun_pd_register_account">帳號：</string>
+    <string name="efun_pd_register_password">密碼：</string>
+    <string name="efun_pd_register_cofirm_password">確認密碼:</string>
+    <string name="efun_pd_register_email">Email信箱地址:</string>
+    <string name="efun_pd_register_finish">註冊</string>
+    <string name="efun_pd_hint_register_account">6~18個字符,需使用字母開頭</string>
+    <string name="efun_pd_hint_register_password">6~16個字符,區分大小寫</string>
+    <string name="efun_pd_hint_register_cofirm_password">請再次填寫密碼</string>
+    <string name="efun_pd_hint_register_email">請填寫Email信箱地址以方便找回密碼</string>
+    <string name="efun_pd_hint_forget_email">*請填寫注冊帳號所用的Email信箱</string>
+    <string name="efun_pd_bind_phone">手機號碼驗證</string>
+    <!-- <string name="efun_pd_bind_email">綁定Email信箱</string> -->
+    <string name="efun_pd_welfare_bind_phone">手機驗證</string>
+    <string name="efun_pd_phone_number">手機號碼：</string>
+    <string name="efun_pd_email_intro">Email信箱地址：</string>
+    <string name="efun_pd_phone_area">地區：</string>
+    <string name="efun_pd_phone_new_area">新號碼地區：</string>
+    <string name="efun_pd_bind_phone_intro">發送中...</string>
+    <string name="efun_pd_bind_phone_intro_title">驗證您的手機號碼，Efun會向您發送一條驗證簡訊，請輸入驗證碼完成驗證</string>
+    <string name="efun_pd_bind_phone_vcode_title">驗證碼：</string>
+    <string name="efun_pd_toast_error_phone">請先獲取驗證碼</string>
+    <string name="efun_pd_toast_empty_phone">手機號碼不能為空</string>
+    <string name="efun_pd_toast_empty_phone_area">請先選擇手機歸屬地區</string>
+    <string name="efun_pd_toast_error_phone_type">請輸入正確的手機號碼</string>
+    <string name="efun_pd_toast_error_new_phone_type">請輸入正確的新手機號碼</string>
+    <string name="efun_pd_toast_error_old_phone_type">請輸入正確的原手機號碼</string>
+    <string name="efun_pd_toast_empty_vcode">驗證碼不能為空</string>
+    <string name="efun_pd_toast_empty_gifts">暫無禮包可以領取</string>
+    <string name="efun_pd_register">註冊</string>
+    <string name="efun_pd_person_experience">經驗</string>
+    <string name="efun_pd_vip_experience">會員經驗</string>
+    <string name="efun_pd_service_clause">會員條款及管理規章</string>
+    <string name="efun_pd_forget_email">Email信箱:</string>
+    <string name="efun_pd_forget_password">忘記密碼</string>
+    <string name="efun_pd_get_password">找回密碼</string>
+    <string name="efun_pd_get_submit">確認</string>
+    <string name="efun_pd_game_item_zan">人點讚</string>
+    <string name="efun_pd_game_item_version_prefix">更新至</string>
+    <string name="efun_pd_game_item_version">版</string>
+    <string name="efun_pd_game_version">遊戲版本:</string>
+    <string name="efun_pd_game_size">遊戲大小:</string>
+    <string name="efun_pd_game_fb">粉絲頁</string>
+    <string name="efun_pd_game_download">下載</string>
+    <string name="efun_pd_game_start">啟動</string>
+    <string name="efun_pd_game_update">更新</string>
+    <string name="efun_pd_game_baha">巴哈討論區</string>
+    <string name="efun_pd_loading_msg_commend">提交數據中...</string>
+    <string name="efun_pd_uninstalled_google_play">請先安裝Google商店</string>
+    <string name="efun_pd_loading_msg_login">登入中...</string>
+    <string name="efun_pd_toast_timeout">請求超時,請稍後再試</string>
+    <string name="efun_pd_toast_empty_account">請輸入帳號</string>
+    <string name="efun_pd_toast_empty_password">請輸入密碼</string>
+    <string name="efun_pd_toast_error_account">帳號格式：6~18個字符,可使用字母、數字、下劃線,需以字母開頭！</string>
+    <string name="efun_pd_toast_error_account_first_char">帳號格式：需以字母開頭！</string>
+    <string name="efun_pd_toast_error_password">密碼要求6~16個字符！</string>
+    <string name="efun_pd_toast_empty_confirm_password">請輸入重複密碼</string>
+    <string name="efun_pd_toast_empty_different_password">前後密碼不一致</string>
+    <string name="efun_pd_toast_empty_email">請輸入Email信箱</string>
+    <string name="efun_pd_toast_error_email">Email信箱格式錯誤</string>
+    <string name="efun_pd_toast_error_newemail">新Email信箱格式錯誤或者為空</string>
+    <string name="efun_pd_toast_error_oldemail">請輸入舊Email信箱</string>
+    <string name="efun_pd_toast_error_vcode">請輸入驗證碼</string>
+    <string name="efun_pd_toast_error_webview_load">頁面加載錯誤...</string>
+    <string name="efun_pd_send_vcode">驗證碼發送中...</string>
+    <string name="efun_pd_sex_boy">男</string>
+    <string name="efun_pd_sex_girl">女</string>
+    <string name="efun_pd_receive_step">領獎步驟</string>
+    <string name="efun_pd_download_for_point">下載送點數</string>
+    <string name="efun_pd_phone_bind_completed">已綁定手機號</string>
+    <string name="efun_pd_phone_bind_uncompleted">點我綁定手機號</string>
+    <string name="efun_pd_email_bind_completed">已綁定Email信箱</string>
+    <string name="efun_pd_email_bind_uncompleted">點我綁定Email信箱</string>
+    <string name="efun_pd_phone_bind_now">立即通過簡訊驗證</string>
+    <string name="efun_pd_anonymous">匿名</string>
+    <string name="efun_pd_empty_content">請輸入內容</string>
+    <string name="efun_pd_empty_nick">Player</string>
+    <string name="efun_pd_agree_service_clause_1">我已閱讀並同意</string>
+    <string name="efun_pd_agree_service_clause_2"> 《會員條款及管理規章》 </string>
+    <string name="efun_pd_check_service_clause">請勾選服務條款</string>
+    <string name="efun_pd_person_member_name">帳號：</string>
+    <string name="efun_pd_person_member_id">會員ID：</string>
+    <string name="efun_pd_person_member_real_name">姓名：</string>
+    <string name="efun_pd_person_member_idcard">身份證字號：</string>
+    <string name="efun_pd_efun_account_empty">Efun遊戲平台用戶</string>
+    <!-- 常见问题类型参数 -->
+    <string name="efun_pd_cs_param_type_ask_login">登入異常</string>
+    <string name="efun_pd_cs_param_type_ask_pay">儲值問題</string>
+    <string name="efun_pd_cs_param_type_ask_account">帳號問題</string>
+    <string name="efun_pd_cs_param_type_ask_error">異常反饋</string>
+    <string name="efun_pd_cs_param_type_ask_strategy">攻略咨詢</string>
+    <string name="efun_pd_cs_param_type_ask_suggest">遊戲建議</string>
+    <string name="efun_pd_cs_param_type_ask_complain">違規投訴</string>
+    <string name="efun_pd_cs_param_type_ask_other">其他</string>
+
+    <!-- 客服的提示 -->
+    <string name="efun_pd_cs_hints_ask_select_question_type">請先選擇問題類型</string>
+    <string name="efun_pd_cs_hints_ask_select_game">請先選擇遊戲</string>
+    <string name="efun_pd_cs_hints_ask_select_server">請先選擇伺服器</string>
+    
+    <string name="efun_pd_cs_toast_empty_content">請填寫描述內容</string>
+    <string name="efun_pd_cs_toast_empty_game">請選擇遊戲名稱</string>
+    <string name="efun_pd_cs_toast_empty_server">請選擇伺服器</string>
+    <string name="efun_pd_cs_toast_empty_role">請選擇遊戲角色</string>
+    
+    <string name="efun_pd_cs_error_empty_game">查找不到遊戲</string>
+    <string name="efun_pd_cs_error_empty_server">查找不到遊戲伺服器</string>
+    <string name="efun_pd_cs_error_empty_role">查找不到遊戲角色</string>
+    <string name="efun_pd_tw_player">台灣玩家請點我</string>
+    <string name="efun_pd_hk_player">香港玩家請點我</string>
+    
+    <string name="efun_pd_cs_hints_ask_ok">提問成功</string>
+    <string name="efun_pd_cs_hints_ask_write_content_empty">回覆內容不能為空！</string>
+    <string name="efun_pd_cs_hints_reply_ok">回覆成功</string>
+    <string name="efun_pd_cs_hints_reply_finish_question">已評分並完結問題</string>
+    <string name="efun_pd_cs_hints_reply_lock">請選擇未完結的問題</string>
+    <string name="efun_pd_cs_reply_hints_grade_question">請為我們的服務評分哦</string>
+    <string name="efun_pd_reply_grade">已評分</string>
+    <string name="efun_pd_reply_score">評分</string>
+    <string name="efun_pd_reply_ungrade">未評分</string>
+    <string name="efun_pd_reply_new">新回覆</string>
+    <string name="efun_pd_about_us_content">Efun遊戲平台：專注玩、分享玩\n\n\nEfun遊戲平台匯集：《我叫MT》、《神鵰俠侶》、《魅子Online》、《魔卡幻想》、《傾城計》、《獸神傳說》、《彈彈島》、《崩壞學院》等多款一線熱門遊戲產品。作爲專業遊戲發行、遊戲推廣聯運的專業遊戲平台,未來將有更多優質、好玩的遊戲上線當中。\n\n\n不止是分享這麼簡單\nEfun遊戲平台秉承給玩家提供最好玩的遊戲和最優質的服務的運營理念,致力於給大家帶去最快樂的移動端遊戲享受</string>
+
+    <!-- 分享相关 -->
+    <string name="efun_pd_share_summary_content">Efun遊戲平台分享Hot資訊</string>
+    <string name="efun_pd_share_activity_content">Efun活動大放送</string>
+    <string name="efun_pd_share_app_content">下載Efun遊戲平台,真的很嗨~</string>
+    <string name="efun_pd_share_googlejia_error">分享失敗，未安裝google+應用</string>
+    <string name="efun_pd_share_line_error">您還沒有安裝Line客戶端，不能進行分享。</string>
+    <string name="efun_pd_code_1028">參數錯誤</string>
+    <string name="efun_pd_code_1029">網絡異常</string>
+    <string name="efun_pd_code_1030">金幣不足</string>
+    <string name="efun_pd_code_1031">已經贈送了</string>
+    
+    <string name="progress_msg">Loading</string>
+	<string name="initializing_msg">初始化中...</string>
+	<string name="finalizing_msg">完成。。。</string>
+	<string name="efun_pd_login_with_other_account">---用其它帳號登入---</string>
+	<string name="efun_pd_dialog_serial_tips">序號：</string>
+	<string name="efun_pd_confirm">確認</string>
+	<string name="efun_pd_phone_bind">手機綁定：</string>
+	<string name="efun_pd_bind_phone_with_call_phone_way_one">方式1</string>
+	<string name="efun_pd_bind_phone_with_call_phone_way_two">方式2</string>
+	<string name="efun_pd_bind_phone_tips1">點擊撥打以下號碼完成驗證</string>
+	<string name="efun_pd_bind_phone_tips2">（台灣地區用戶最佳驗證方式）</string>
+	<string name="efun_pd_finish_veri_by_vcode">輸入獲得的驗證碼完成驗證</string>
+	<string name="efun_pd_bind_phone_next_step">下一步</string>
+	<string name="efun_pd_hint_old_phone">輸入原手機號碼</string>
+	<string name="efun_pd_hint_phone">輸入手機號碼</string>
+	<string name="efun_pd_get_vcode_again">重新獲取驗證碼</string>
+	<string name="efun_pd_get_vcode_again_timedown">s后重新獲取</string>
+	<string name="efun_pd_sign_has_get_reward">已領取獎勵</string>
+    
+    <!-- 无数据提示 -->
+    <string name="efun_pd_no_data_no_summary">還沒有相關的新聞或資訊哦~</string>
+    <string name="efun_pd_no_data_no_commend">還沒有相關的評論,點擊評論</string>
+    <string name="efun_pd_no_data_no_activity">活動還沒開啟,請耐心等候</string>
+    <string name="efun_pd_no_data_no_giftself">還未領取任何禮包,趕快去領取吧~</string>
+    <string name="efun_pd_no_data_no_server_reply">暫無回覆哦,請先提問~</string>
+    
+    <string name="efun_pd_no_video">暫無視頻哦</string>
+    <string name="efun_pd_share_facebook">Facebook</string>
+    <string name="efun_pd_share_twitter">Twitter</string>
+    <string name="efun_pd_share_line">LINE</string>
+    <string name="efun_pd_share_googlejia">Google +</string>
+    <string name="efun_pd_share_email">Email</string>
+    
+    <string-array name="efun_pd_pop_per_info_pic">
+        <item>拍照</item>
+        <item>選擇本地圖片</item>
+    </string-array>
+    <string-array name="efun_pd_pop_per_info_sex">
+        <item>@string/efun_pd_sex_boy</item>
+        <item>@string/efun_pd_sex_girl</item>
+    </string-array>
+    <string-array name="efun_pd_pop_chose_area_download">
+        <item>@string/efun_pd_tw_player</item>
+        <item>@string/efun_pd_hk_player</item>
+    </string-array>
+    <string-array name="efun_pd_game_detail_v_tab">
+        <item>詳情</item>
+        <item>@string/efun_pd_summary</item>
+        <item>玩家評論</item>
+    </string-array>
+    <string-array name="efun_pd_welfare_gift_v_tab">
+        <item>禮包內容</item>
+        <item>@string/efun_pd_get_awards_rule</item>
+    </string-array>
+    <string-array name="efun_pd_summary_v_tab">
+        <item>全部</item>
+        <item>@string/efun_pd_news</item>
+        <item>公告</item>
+        <item>@string/efun_pd_act</item>
+        <item>@string/efun_pd_strategy</item>
+        <item>視頻</item>
+    </string-array>
+    <string-array name="efun_pd_question_v_tab">
+        <item>@string/efun_pd_question</item>
+        <item>@string/efun_pd_regist_log</item>
+        <item>@string/efun_pd_recharge_question</item>
+    </string-array>
+    <string-array name="efun_pd_welfare_list">
+        <item>領取免費點數</item>
+        <item>@string/efun_pd_act</item>
+        <item>禮包序號中心</item>
+        <item>砸蛋</item>
+    </string-array>
+    <string-array name="efun_pd_cs_list">
+        <item>@string/efun_pd_question</item>
+        <item>@string/efun_pd_ask</item>
+        <item>@string/efun_pd_cs_reply</item>
+    </string-array>
+
+    <!-- 常见问题类型参数列表 -->
+    <string-array name="efun_pd_cs_params_ask">
+        <item>@string/efun_pd_cs_param_type_ask_login</item>
+        <item>@string/efun_pd_cs_param_type_ask_pay</item>
+        <item>@string/efun_pd_cs_param_type_ask_account</item>
+        <item>@string/efun_pd_cs_param_type_ask_error</item>
+        <item>@string/efun_pd_cs_param_type_ask_strategy</item>
+        <item>@string/efun_pd_cs_param_type_ask_suggest</item>
+        <item>@string/efun_pd_cs_param_type_ask_complain</item>
+        <item>@string/efun_pd_cs_param_type_ask_other</item>
+    </string-array>
+
+    <!-- 常见问题的code -->
+    <string-array name="efun_pd_cs_params_ask_code">
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+    </string-array>
+    
+<!--     <string name="default_web_client_id" translatable="false">320591650607-kacj6jde7ofov7vbc2kvcfmd8s2rooek.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://efunapp-e800a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">320591650607</string>
+    <string name="google_api_key" translatable="false">AIzaSyBYS_O3aCbqZe7LmZmFcOk31aUMfhju6fg</string>
+    <string name="google_app_id" translatable="false">1:320591650607:android:0362c7baf94535d6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBYS_O3aCbqZe7LmZmFcOk31aUMfhju6fg</string>
+    <string name="google_storage_bucket" translatable="false">efunapp-e800a.appspot.com</string> -->
+    
+    <string name="efun_pd_service_clause_content">本契約是由Efun遊戲平台會員(會員個人資料請於註冊頁面填寫，以下簡稱「甲方」)，與臺灣英旗互動娛樂有限公司(INCH INTERACTIVE ENTERTAMENT (TAIWAN) LTD，以下簡稱「乙方」)，就乙方所提供的網站以及乙方現在正在提供和將來可能向甲方提供的網路相關服務和手機遊戲服務，所訂立的契約。\n
+會員註冊及遊戲服務之申請，請甲方先行審閱本契約，再按「同意遵守」鍵完成會員註冊程序。\n
+如甲方是限制行為能力人（滿七歲但未滿二十歲），甲方必須取得法定代理人（如：父母、監護人）之允許始得註冊成為會員；如甲方為無行為能力人（未滿七歲之未成年人），則請由甲方的法定代理人代為註冊申請。甲方對本契約書之同意及其他意思表示，均視為已取得法定代理人之允許或符合法律行為之要件。\n
+第一條　　　契約適用之範圍\n
+乙方提供甲方手機遊戲服務及其他相關服務（以下簡稱本服務），甲乙雙方關於本服務之權利義務，依本契約書條款之約定定之。\n
+第二條　　　契約內容\n
+以下視為本契約之一部分，與本契約具有相同之效力：\n
+1.乙方有關本服務之廣告或宣傳內容。\n
+2.費率表及遊戲管理規則。\n
+前項契約內容相互間有衝突者，應為消費者有利之解釋。\n
+第三條　　　名詞定義\n
+本契約之名詞定義如下：\n
+1.線上遊戲：係指甲方透過網際網路連線經由乙方所架設之網路伺服器，使甲方得與其他不特定之多數人得同時連線進行遊戲之軟體。\n
+2.遊戲網站：係指由乙方為提供本遊戲服務所建置之網站。\n
+3.遊戲點數：係指甲方依照乙方所定之付費方式所換取，作為支付甲方服務對價之單位。\n
+4.遊戲管理規則：係指由乙方訂立，供為規範遊戲進行方式之規則且不影響雙方契約上之權利義務者。\n
+5.遊戲歷程：係指自甲方登入本服務起至登出本服務時止，電腦系統對甲方遊戲進行過程所為之紀錄。\n
+6.暫停遊戲權限（凍結）：係指以限制登入遊戲網站或暫時限制遊戲帳號使用權利等方式，暫時禁止甲方使用本網站所提供之本服務。\n
+7.外掛程式：係指非由乙方提供，以影響或改變乙方線上遊戲運作為目的之程式。\n
+8.必要成本：係指乙方為履行本契約而已支出之成本或已給付予第三人之費用。\n
+第四條　　　特種買賣消費者之特殊契約解除權規定\n
+甲方得於開始遊戲後七日內，以電子郵件或書面告知乙方解除本契約，甲方無需說明理由及負擔任何費用。甲方得就未使用之儲值向乙方請求退費。\n
+第五條　　　計費標準之變更及其通知相關規定\n
+費率調整時，乙方應於預定調整生效日三十日前於遊戲網站、遊戲進行中及遊戲登入頁面公告；若甲方於註冊帳號時已登錄電子郵件者，並以電子郵件通知甲方。\n
+費率如有調整時，應自調整生效日起按新費率計收；若新費率高於舊費率時，甲方在新費率生效日前已於遊戲網站中登錄之儲值應依舊費率計收。\n
+採計時制者，每次計價單位為二小時。\n
+第六條　　　本遊戲應載明之資訊\n
+乙方應於遊戲網站及遊戲套件包裝上載明以下事項：\n
+1.依電腦軟體分級辦法規定標示遊戲分級級別及禁止或適合使用之年齡層。\n
+2.進行本遊戲之最低軟硬體需求。\n
+3.第七條所列之退費權利。\n
+4.有提供安全裝置者，其免費或付費資訊。\n
+第七條　　　遊戲套件與軟體之退費\n
+甲方得於購買本遊戲套件或付費下載相關軟體後七日內，向原購買處之業者請求全額退費。前項情形，原購買處之業者不處理或無法處理者，由乙方依甲方之請求立即退費。\n
+第八條　　　契約之生效\n
+甲方於契約審閱期過後初次註冊帳號，進入顯示本契約條款之網頁，並按「同意」之選項後，即推定甲方同意本契約條款之規定。\n
+第九條　　　智慧財產權\n
+遊戲網站上之所有著作及資料，其著作權、專利權、商標、營業秘密、其他智慧財產權，所有權或其他權利，均為乙方或其權利人所有，除事先經乙方或其個別權利人之合法授權外，甲方不得擅自以重製、傳輸、改作、編輯或以其他任何形式、基於任何目的加以使用，違者應自行負所有相關法律責任。\n
+若甲方於遊戲中發生任何違反法令之行為及任何侵害他人智慧財產權情事發生情事，乙方在接獲公務機關及檢調單位和司法機關或其他政府機關之命令之後，得不經甲方同意即提供甲方之會員註冊資料及其上線時間及遊戲歷程紀錄，交予相關之單位做為佐證，本契約亦立即終止。\n
+第十條　　　帳號與密碼之使用及保管\n
+1.甲方於本服務註冊程序中應自行設定一組帳號及密碼，經乙方遊戲網站核對確認後即設定該組帳號及密碼供甲方使用。\n
+2.該組帳號一經設定即不得變更，帳號對應之密碼得依乙方提供之修改機制進行變更。\n
+3.甲方應負帳號及密碼保管之責，不得將該組帳號及密碼轉讓、交付、揭露或出借予第三人，如因而產生糾紛，屬歸責於甲方之情形，由甲方自行負責。\n
+4.乙方人員（含客服人員、遊戲管理員）不得主動詢問甲方之密碼。\n
+5.乙方應於契約終止後三十日內，保留甲方之帳號與電磁紀錄。\n
+6.契約非因可歸責於甲方之事由而終止者，甲方於該期間內辦理續用後，有權繼續使用原帳號及附隨於該帳號之電磁紀錄。前項期限屆滿時，甲方仍未辦理續用，乙方得刪除該帳號及附隨於該帳號之所有資料，但法令另有規定者不在此限。\n
+第十一條　　帳號密碼遭非法使用之通知\n
+任一方發現第三人非法使用甲方之帳號，或有使用安全遭異常破壞之情形時，應立即通知對方。乙方接獲甲方通知，或乙方通知甲方後，經甲方確認有前述情事，乙方得暫停該組帳號或密碼之使用權限，並更換新帳號或密碼予甲方。\n
+前項情形，乙方應返還甲方已扣除之儲值，或補償相當之遊戲費用，但可歸責於甲方者，不在此限。\n
+第十二條　　電磁紀錄被不當移轉時之處理方式\n
+甲方如發現帳號、密碼被非法使用，且遊戲電磁紀錄遭不當移轉時，應立即通知乙方查證，經乙方查證甲方之個人身分無誤後，應立即暫時凍結該組帳號，並暫時限制相關線上遊戲使用人就本服務之使用權利。\n
+乙方應於暫時限制遊戲使用權利之時起，即刻以書面或電子郵件通知持有前項電磁紀錄之第三人提出說明。如該第三人未於接獲通知時起七日內提出說明，乙方應直接回復遭不當移轉之電磁紀錄予甲方，不能回復時可採其他雙方同意之相當補償方式，並於回復後解除對相關線上遊戲使用人之限制；惟乙方有提供免費安全裝置（如防盜卡、電話鎖等）而甲方不使用者，乙方得直接回復遭不當移轉之電磁紀錄予甲方。\n
+持有第一項電磁紀錄之第三人不同意乙方前項之處理，乙方得依報案程序，循司法途徑處理。\n
+乙方依第一項規定限制甲方之使用權時，在限制使用期間內，乙方不得向甲方收取費用。\n
+甲方如有申告不實之情形致生乙方或其他線上遊戲使用人權利受損時，應負一切法律責任。\n
+第十三條　　遊戲歷程之保存期限、查詢方式及費用\n
+乙方應保存甲方之個人遊戲歷程紀錄，且保存期間為三十日，以供甲方查詢。\n
+甲方得以書面、網路，或親至乙方之服務中心申請調閱甲方之個人遊戲歷程，且須提出與身份証明文件相符之個人資料以供查驗，查詢費用為新台幣貳百元，由甲方負擔。\n
+乙方接獲甲方之查詢申請，應提供第一項所列之甲方個人遊戲歷程，並於七日內以光碟或磁片等儲存媒介或書面、電子郵件方式提供資料。\n
+第十四條　　電磁紀錄\n
+本遊戲之所有電磁紀錄均屬乙方所有，乙方並應維持甲方相關電磁紀錄之完整。\n
+甲方對於前項電磁紀錄有支配之權利。\n
+第十五條　　隱私權保護\n
+關於個人資料之保護，依個人資料保護法及相關法律規定處理。相關規定請參閱隱私條款。\n
+第十六條　　資訊公開\n
+乙方應於遊戲網站上提供本遊戲相關資訊，並定期更新。\n
+第十七條　　連線品質\n
+乙方各項系統設備因預先計畫所需之系統維護停機，應於七日前於遊戲網站中公告，且於甲方登入時通知，並於遊戲進行中發佈停機訊息。\n
+乙方應確保其系統設備，無發生錯誤、畫面暫停、遲滯、中斷或不能進行連線的情形。如因而致不能提供甲方服務時，乙方應返還甲方已扣除之儲值，或免收相當之遊戲費用，或遞延甲方得進行遊戲之時間。\n
+第十八條　　系統安全、程式漏洞\n
+乙方應依本契約之規定負有於提供本服務時，維護其自身電腦系統，符合當時科技或專業水準可合理期待之安全性。\n
+電腦系統或電磁紀錄受到破壞，或電腦系統運作異常時，乙方應於採取合理之措施後儘速予以回復。\n
+乙方違反前二項規定，致生甲方損害時，應依甲方之受損害情形，負損害賠償責任，但乙方能證明其無過失者，得減輕其賠償責任。\n
+乙方電腦系統發生第二項所稱情況時，於完成修復並正常運作之前，乙方不得向甲方收取費用。\n
+因遊戲程式漏洞致甲方受損時，乙方應依甲方之受損害情形，負損害賠償責任。但乙方證明其無過失者，得減輕其賠償責任。\n
+第十九條　　遊戲管理規則\n
+為規範遊戲進行之方式，乙方應訂立合理公平之遊戲管理規則，甲方應遵守乙方公告之遊戲管理規則。\n
+遊戲管理規則之變更應依第二十二條之程序為之。\n
+遊戲管理規則有下列情形之一者，其規定無效：\n
+1.抵觸本契約之規定。\n
+2.剝奪或限制甲方之契約上權利。但乙方依第二十條之規定處理者，不在此限。\n
+第二十條　　違反遊戲管理規則之處理\n
+除本契約另有規定外，有事實足證甲方於本遊戲中違反遊戲管理規則時，乙方應於遊戲網站或遊戲進行中公告，並以線上即時通訊方式或電子郵件通知甲方。經乙方通知改善而未改善者，乙方得依遊戲管理規則，按其情節輕重限制甲方之遊戲使用權利。\n
+乙方依遊戲管理規則停止甲方進行遊戲之權利，每次不得超過七日。\n
+除構成契約終止事由外，乙方依遊戲管理規則對甲方所為之處置，不得影響甲方依本契約應享之權利。\n
+第二十一條　申訴權利\n
+甲方不滿意乙方提供之連線品質、遊戲管理、費用計費、其他相關之服務品質，或對乙方依遊戲管理規則之處置不服時，得於收到通知之翌日起七日內至乙方之服務中心或以電子郵件或書面提出申訴，乙方應於接獲申訴後，於十五日內回覆處理之結果。\n
+乙方應於遊戲網站或遊戲管理規則中明訂二十四小時服務專線、申訴服務專線與電子郵件位址。\n
+第二十二條　契約之變更\n
+乙方修改本契約時，應於遊戲網站首頁及遊戲之登入頁面公告之，並以書面或電子郵件通知甲方。\n
+乙方未依前項進行公告及通知者，其契約之變更無效。\n
+甲方於第一項通知到達後十五日內：\n
+1.甲方未為反對之表示者，視為甲方接受乙方契約變更之內容。\n
+2.甲方為反對之表示者，視為甲方對乙方終止本契約之通知。\n
+第二十三條　契約之終止及退費\n
+甲方得隨時通知乙方終止本契約。\n
+　　契約終止時，乙方於扣除30%必要成本後，應於三十日內以現金、信用卡、匯票或掛號寄發支票方式退還甲方未使用之儲值或遊戲費用。\n
+　　甲方有下列重大情事之一者，乙方以書面或電子郵件通知甲方後，得立即終止本契約：\n
+1.利用任何系統或工具對乙方電腦系統之惡意攻擊或破壞。\n
+2.以利用外掛程式、病毒程式、遊戲程式漏洞或其他違反公平合理之方式進行遊戲。\n
+3.經司法機關查獲從事任何不法之行為。\n
+　　乙方對前項事實認定產生錯誤或無法舉證時，乙方應對甲方之損害負賠償責任。\n
+第二十四條　個別條款效力\n
+本契約所定的任何條款之一部或全部無效者，不影響其它條款的效力。\n
+第二十五條　準據法及管轄法院\n
+本契約與相關遊戲管理規則之解釋及適用、及甲方因使用本服務而與乙方間所生之權利義務關係，雙方同意以中華民國法律為準據法。\n
+因本契約而生之事件如有訴訟必要，雙方合意以台北地方法院為第一審管轄法院。\n
+前項約定不得排除消費者保護法第四十七條或民事訴訟法第四百三十六條之九小額訴訟管轄法院之適用。\n</string>
+
+</resources>

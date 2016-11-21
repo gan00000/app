@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_40" />
+
+    <ImageView
+        android:id="@+id/act_icon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_480"
+        android:scaleType="centerCrop"
+        android:src="@drawable/efun_pd_default_rectangle_h_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/e_size_90"
+            android:layout_height="@dimen/e_size_110"
+            android:background="@drawable/efun_pd_summary_list_activity_header_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/act_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/e_size_25"
+                android:textColor="@color/efun_pd_text_696969_to_black_selecter"
+                android:textSize="@dimen/e_text_size_45" />
+
+            <TextView
+                android:id="@+id/act_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/e_size_18"
+                android:layout_marginTop="@dimen/e_size_25"
+                android:textColor="@color/efun_pd_text_696969_to_black_selecter"
+                android:textSize="@dimen/e_text_size_30" />
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_2"
+            android:background="@color/e_a7a7a7" />
+
+</LinearLayout>

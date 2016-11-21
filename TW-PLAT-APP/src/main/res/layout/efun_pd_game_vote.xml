@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    
+    <com.efun.platform.widget.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.efun.platform.widget.TitleView>
+
+    <com.efun.platform.widget.RatingBarView
+        android:id="@+id/game_commend_ratingbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/e_size_50"
+        android:gravity="center_horizontal" >
+    </com.efun.platform.widget.RatingBarView>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/e_size_30"
+        android:textSize="@dimen/e_text_size_40"
+        android:textColor="@color/e_8e8e8e"
+        android:text="@string/efun_pd_games_vote_edit_title"/>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/e_size_50"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit_vote"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/e_size_50"
+            android:layout_marginRight="@dimen/e_size_50"
+            android:layout_height="@dimen/e_size_600"
+            android:hint="@string/efun_pd_games_vote_edit_hint"
+            android:background="@drawable/efun_pd_setting_help_and_feed_content_bg"
+            android:gravity="top"
+            android:padding="@dimen/e_size_30"
+            android:textSize="@dimen/e_text_size_40" />
+    </LinearLayout>
+    
+
+</LinearLayout>

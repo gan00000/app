@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e_567fbc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/e_size_690"
+        android:layout_height="@dimen/e_size_690"
+        android:layout_gravity="center"
+        android:background="@drawable/efun_pd_person_head_bg_one"
+        android:layout_marginTop="@dimen/e_size_190" >
+        
+        <ImageView 
+            android:id="@+id/head_icon"
+            android:layout_width="@dimen/e_size_516"
+            android:layout_height="@dimen/e_size_516"
+            android:src="@drawable/efun_pd_default_round_user_girl_icon"
+            android:layout_centerInParent="true"/>
+        
+        <ImageView
+            android:id="@+id/right_btn"
+            android:layout_width="@dimen/e_size_124"
+            android:layout_height="@dimen/e_size_124"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/e_size_370"
+            android:src="@drawable/efun_pd_person_setting_icon"/>
+        <ImageView 
+            android:id="@+id/head_change_icon"
+            android:layout_width="@dimen/e_size_150"
+            android:layout_height="@dimen/e_size_150"
+            android:layout_below="@id/right_btn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/e_size_44"
+            android:src="@drawable/efun_pd_person_camera_icon"/>
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/e_size_44"
+        >
+        <TextView
+            android:id="@+id/person_nickName" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_60"
+            android:textColor="@color/e_ffbf7f"/>
+        
+        <ImageView
+            android:id="@+id/change_nickName" 
+            android:layout_width="@dimen/e_size_40"
+            android:layout_height="@dimen/e_size_42"
+            android:layout_marginLeft="@dimen/e_size_24"
+            android:src="@drawable/efun_pd_person_nickname_edit_icon"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/e_size_44"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_40"
+            android:textColor="@color/e_b3c5e6"
+            android:text="帐号："/>
+        
+        <TextView
+            android:id="@+id/person_accountName" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_40"
+            android:textColor="@color/e_ffffff"
+            android:text="tink"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/e_size_30"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_40"
+            android:textColor="@color/e_b3c5e6"
+            android:text="会员ID："/>
+        
+        <TextView
+            android:id="@+id/person_accountId" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_40"
+            android:textColor="@color/e_ffffff"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

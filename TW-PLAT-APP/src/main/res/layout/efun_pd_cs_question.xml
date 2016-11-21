@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.efun.platform.widget.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.efun.platform.widget.TitleView>
+    
+    <com.efun.platform.widget.PagerTab
+        android:id="@+id/pager_view_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_90"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:background="@color/e_8e8e8e" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_view_v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:persistentDrawingCache="animation|scrolling"
+        android:background="@color/e_efeff4" >
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.efun.platform.widget.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.efun.platform.widget.TitleView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/e_f8f4ee"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/reset_bind_email"
+            android:layout_width="@dimen/e_size_960"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/e_size_50"
+            android:background="@drawable/efun_pd_person_reset_save_setting_body_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/e_size_100"
+                android:gravity="center"
+                android:text="@string/efun_pd_reset_email"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/e_text_size_45" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/efun_pd_person_reset_save_setting_item_bg"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/e_size_47"
+                android:paddingLeft="@dimen/e_size_41"
+                android:paddingRight="@dimen/e_size_41"
+                android:paddingTop="@dimen/e_size_50" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/efun_pd_reset_old_email"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_45" />
+
+                    <EditText
+                        android:id="@+id/edit_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/efun_pd_person_reset_save_setting_edit_bg"
+                        android:gravity="center_vertical"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:paddingBottom="@dimen/e_size_20"
+                        android:paddingLeft="@dimen/e_size_40"
+                        android:paddingRight="@dimen/e_size_40"
+                        android:paddingTop="@dimen/e_size_20"
+                        android:singleLine="true"
+                        android:textColor="@color/e_8e8e8e"
+                        android:textSize="@dimen/e_text_size_45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/e_size_37"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/efun_pd_reset_new_email"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_45" />
+
+                    <EditText
+                        android:id="@+id/edit_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/efun_pd_person_reset_save_setting_edit_bg"
+                        android:gravity="center_vertical"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:paddingBottom="@dimen/e_size_20"
+                        android:paddingLeft="@dimen/e_size_40"
+                        android:paddingRight="@dimen/e_size_40"
+                        android:paddingTop="@dimen/e_size_20"
+                        android:singleLine="true"
+                        android:textColor="@color/e_8e8e8e"
+                        android:textSize="@dimen/e_text_size_45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/e_size_28"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/efun_pd_reset_new_email"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_45"
+                        android:visibility="invisible" />
+
+                    <EditText
+                        android:id="@+id/edit_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/efun_pd_person_reset_save_setting_edit_bg"
+                        android:gravity="center_vertical"
+                        android:hint="@string/efun_pd_verify_code"
+                        android:imeOptions="actionDone"
+                        android:paddingBottom="@dimen/e_size_20"
+                        android:paddingLeft="@dimen/e_size_40"
+                        android:paddingRight="@dimen/e_size_40"
+                        android:paddingTop="@dimen/e_size_20"
+                        android:singleLine="true"
+                        android:textColor="@color/e_8e8e8e"
+                        android:textSize="@dimen/e_text_size_45" />
+
+                    <TextView
+                        android:id="@+id/email_send_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/e_size_20"
+                        android:background="@drawable/efun_pd_reset_light_blue_btn_selector"
+                        android:padding="@dimen/e_size_10"
+                        android:text="@string/efun_pd_reset_send_veri_phone"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/e_text_size_45" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/e_size_60" >
+
+                    <TextView
+                        android:id="@+id/email_save"
+                        android:layout_width="@dimen/e_size_369"
+                        android:layout_height="@dimen/e_size_126"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/efun_pd_reset_dark_blue_btn_selector"
+                        android:gravity="center"
+                        android:text="@string/efun_pd_reset_save"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/e_text_size_60" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

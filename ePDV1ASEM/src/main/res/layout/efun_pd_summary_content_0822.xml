@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e_f7f7f7"
+    android:orientation="vertical" >
+
+    <!-- 轮播图片 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_480"
+        android:background="@android:color/white" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_480" >
+        </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/e_size_5" >
+
+            <com.efun.platform.widget.ZoomPointContainer
+                android:id="@+id/zoom_point_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal" >
+            </com.efun.platform.widget.ZoomPointContainer>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 视频 -->
+    <RelativeLayout
+        android:id="@+id/item_video_parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_480"
+        android:layout_marginLeft="@dimen/e_size_15"
+        android:layout_marginRight="@dimen/e_size_15"
+        android:layout_marginTop="@dimen/e_size_20"
+        android:visibility="gone"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/video_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_480"
+            android:scaleType="centerCrop"
+            android:src="@drawable/efun_pd_default_rectangle_h_icon" />
+
+        <RelativeLayout
+            android:id="@+id/item_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/e_50000000" >
+
+            <ImageView
+                android:id="@+id/video_play"
+                android:layout_width="@dimen/e_size_120"
+                android:layout_height="@dimen/e_size_120"
+                android:layout_centerInParent="true"
+                android:src="@drawable/efun_pd_common_video_play_icon" />
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/e_size_20"
+                android:layout_marginLeft="@dimen/e_size_35"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/e_text_size_35" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- fb，官网，下载按钮 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_104"
+        android:layout_marginLeft="@dimen/e_size_15"
+        android:layout_marginRight="@dimen/e_size_15"
+        android:layout_marginTop="@dimen/e_size_20"
+        android:background="@drawable/efun_pd_cons_dddfe2_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/summary_fb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center" 
+            >
+            <ImageView 
+                android:layout_width="@dimen/e_size_194"
+                android:layout_height="@dimen/e_size_62"
+                android:background="@drawable/efun_pd_summary_fb_function_selector"/>
+        </LinearLayout>
+        
+        <View android:layout_width="@dimen/e_size_1"
+            android:layout_height="match_parent"
+            android:background="@color/e_dddfe2"/>
+        
+        <LinearLayout
+            android:id="@+id/summary_govweb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center" 
+            >
+            <ImageView 
+                android:layout_width="@dimen/e_size_194"
+                android:layout_height="@dimen/e_size_62"
+                android:background="@drawable/efun_pd_summary_govweb_function_selector"/>
+        </LinearLayout>
+        
+        <View android:layout_width="@dimen/e_size_1"
+            android:layout_height="match_parent"
+            android:background="@color/e_dddfe2"/>
+        
+        <LinearLayout
+            android:id="@+id/summary_download"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center" 
+            >
+            <ImageView 
+                android:layout_width="@dimen/e_size_194"
+                android:layout_height="@dimen/e_size_62"
+                android:background="@drawable/efun_pd_summary_download_function_selector"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <!-- 六大功能模块 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/e_size_15"
+        android:layout_marginRight="@dimen/e_size_15"
+        android:layout_marginTop="@dimen/e_size_10"
+        android:background="@drawable/efun_pd_cons_dddfe2_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_200"
+            android:orientation="horizontal">
+            
+            <LinearLayout
+                android:id="@+id/summary_guide"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0"
+	            android:orientation="vertical"
+	            android:background="@drawable/efun_pd_person_item_bg_selector"
+	            android:gravity="center" 
+            	>
+	            <ImageView 
+	                android:layout_width="@dimen/e_size_364"
+	                android:layout_height="@dimen/e_size_154"
+	                android:background="@drawable/efun_pd_summary_gonglue_function"/> 
+        	</LinearLayout>
+        	
+            <View 
+                android:layout_width="@dimen/e_size_1"
+                android:layout_height="match_parent"
+                android:background="@color/e_dddfe2"/>
+        
+	        <LinearLayout
+	            android:id="@+id/summary_notice"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0"
+	            android:orientation="vertical"
+	            android:background="@drawable/efun_pd_person_item_bg_selector"
+	            android:gravity="center" 
+	            >
+	            <ImageView 
+	                android:layout_width="@dimen/e_size_364"
+                	android:layout_height="@dimen/e_size_154"
+	                android:background="@drawable/efun_pd_summary_gonggao_function"/>
+	        </LinearLayout>
+            
+        </LinearLayout>
+        
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_1"
+            android:background="@color/e_dddfe2"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_200"
+            android:orientation="horizontal">
+            
+            <LinearLayout
+                android:id="@+id/summary_activity"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0"
+	            android:orientation="vertical"
+	            android:background="@drawable/efun_pd_person_item_bg_selector"
+	            android:gravity="center" 
+            >
+            <ImageView 
+                android:layout_width="@dimen/e_size_364"
+                android:layout_height="@dimen/e_size_154"
+                android:background="@drawable/efun_pd_summary_activity_function"/> 
+        	</LinearLayout>
+        	
+            <View 
+                android:layout_width="@dimen/e_size_1"
+                android:layout_height="match_parent"
+                android:background="@color/e_dddfe2"/>
+        
+	        <LinearLayout
+	            android:id="@+id/summary_video"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0"
+	            android:orientation="vertical"
+	            android:background="@drawable/efun_pd_person_item_bg_selector"
+	            android:gravity="center" 
+	            >
+	            <ImageView 
+	                android:layout_width="@dimen/e_size_364"
+                	android:layout_height="@dimen/e_size_154"
+	                android:background="@drawable/efun_pd_summary_video_function"/>
+	        </LinearLayout>
+            
+        </LinearLayout>
+        
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_1"
+            android:background="@color/e_dddfe2"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_200"
+            android:orientation="horizontal">
+            
+            <LinearLayout
+                android:id="@+id/summary_job"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0"
+	            android:orientation="vertical"
+	            android:background="@drawable/efun_pd_person_item_bg_selector"
+	            android:gravity="center" 
+            >
+            <ImageView 
+                android:layout_width="@dimen/e_size_364"
+                android:layout_height="@dimen/e_size_154"
+                android:background="@drawable/efun_pd_summary_job_function"/> 
+        	</LinearLayout>
+        	
+            <View 
+                android:layout_width="@dimen/e_size_1"
+                android:layout_height="match_parent"
+                android:background="@color/e_dddfe2"/>
+        
+	        <LinearLayout
+	            android:id="@+id/summary_partner"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1.0"
+	            android:orientation="vertical"
+	            android:background="@drawable/efun_pd_person_item_bg_selector"
+	            android:gravity="center" 
+	            >
+	            <ImageView 
+	                android:layout_width="@dimen/e_size_364"
+                	android:layout_height="@dimen/e_size_154"
+	                android:background="@drawable/efun_pd_summary_partner_function"/>
+	        </LinearLayout>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <!-- 资讯 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/e_size_15"
+        android:layout_marginRight="@dimen/e_size_15"
+        android:paddingLeft="@dimen/e_size_30"
+        android:paddingRight="@dimen/e_size_30"
+        android:paddingBottom="@dimen/e_size_60"
+        android:layout_marginTop="@dimen/e_size_20"
+        android:background="@drawable/efun_pd_cons_dddfe2_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e_size_35"
+            android:layout_marginBottom="@dimen/e_size_15"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            
+        <TextView
+            android:layout_width="@dimen/e_size_42"
+            android:layout_height="@dimen/e_size_42"
+            android:background="@drawable/efun_pd_summary_title_nav_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/efun_pd_games_summary"
+            android:layout_marginLeft="@dimen/e_size_22"
+            android:textColor="@color/e_567fbc"
+            android:textSize="@dimen/e_text_size_36" />
+
+        <TextView
+            android:id="@+id/more_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/e_size_35"
+            android:gravity="right"
+            android:text="@string/efun_pd_recommended_games_more"
+            android:visibility="gone"
+            android:textColor="@color/efun_pd_text_567fbc_to_a0a0a0_selecter"
+            android:textSize="@dimen/e_text_size_35"
+            android:textStyle="bold" />
+        
+        </LinearLayout>
+        
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_1"
+            android:background="@color/e_dddfe2"/>
+        
+        <com.efun.platform.module.summary.view.SummaryContainer
+	        android:id="@+id/summary_container"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/white"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical" />
+        
+    </LinearLayout>
+
+    
+
+</LinearLayout>

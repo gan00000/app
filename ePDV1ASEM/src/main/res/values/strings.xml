@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">剑侠情缘助手</string>
+    
+   
+    <string name="efun_pd_logout">再次点击退出!</string>
+    <string name="efun_pd_reset_account_hint">点击切换账号</string>
+    <string name="efun_pd_share_2">Share 至以下平台</string>
+    <string name="efun_pd_loading">Loading</string>
+    <string name="efun_pd_push_loading">正在加载ing,请稍等一会</string>
+    <string name="efun_pd_recommended_games_more">显示全部</string>
+    <string name="efun_pd_games_summary">大家都在看</string>
+    <string name="efun_pd_xlistview_header_hint_normal">下拉刷新</string>
+    <string name="efun_pd_xlistview_header_hint_ready">放开我，人家正在加载了喇</string>
+    <string name="efun_pd_xlistview_header_hint_loading">正在愉快加载ing</string>
+    <string name="efun_pd_xlistview_header_last_time">上次更新时间：</string>
+    <string name="efun_pd_xlistview_footer_hint_normal">查看更多</string>
+    <string name="efun_pd_xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="efun_pd_xlistview_time_now">刚刚</string>
+    <string name="efun_pd_xlistview_time_minutes">分钟前</string>
+    <string name="efun_pd_network_error">网络未连接，请检查你的网络状况</string>
+    <string name="efun_pd_request_error">请求异常了，请点击图片重新尝试</string>
+    <string name="efun_pd_timeout_error">请求超时了，请点击图片重新尝试</string>
+    <string name="efun_pd_empty_error">暂无数据，请稍后再试</string>
+    <string name="efun_pd_vedio">视频</string>
+    <string name="efun_pd_game">游戏</string>
+    <string name="efun_pd_welfare">福利</string>
+    <string name="efun_pd_summary">资讯</string>
+    <string name="efun_pd_news">新聞</string>
+    <string name="efun_pd_summary_content">资讯内容</string>
+    <string name="efun_pd_strategy">攻略</string>
+    <string name="efun_pd_code">QR Code扫描</string>
+    <string name="efun_pd_set">设置</string>
+    <string name="efun_pd_sure">确定</string>
+    <string name="efun_pd_check">查看</string>
+    <string name="efun_pd_cancel">取消</string>
+    <string name="efun_pd_update_ok">好哦</string>
+    <string name="efun_pd_update_cancel">不要</string>
+    <string name="efun_pd_commend">评论</string>
+    <string name="efun_pd_share">分享</string>
+    <string name="efun_pd_description">描述</string>
+    <string name="efun_pd_email">Email邮箱</string>
+    <string name="efun_pd_cs_ask_notify">*留下您的联系方式</string>
+    <string name="efun_pd_submit">确定</string>
+    <string name="efun_pd_save">保存</string>
+    <string name="efun_pd_edit">编辑</string>
+    <string name="efun_pd_share_success">分享成功</string>
+    <string name="efun_pd_share_failure">分享失败</string>
+    <string name="efun_pd_login_exception">登录异常</string>
+    <string name="efun_pd_dimensional_url_error">链接地址有误！</string>
+    <string name="efun_pd_login_authoriza_account">是否授权使用Efun游戏平台账号登录？</string>
+    <string name="efun_pd_login_authoriza_submit">确认授权</string>
+    <string name="efun_pd_login_error_timeout">您当前的登录信息已过期，请重新登录喔</string>
+    <string name="efun_pd_login_error_pwd">您当前的登录密码进行过更新，请重新登录喔</string>
+    <string name="efun_pd_get_reword">领取记录</string>
+    <string name="efun_pd_gift_account">序号:</string>
+    <string name="efun_pd_copy">复制</string>
+    <string name="efun_pd_gift_password">密码:</string>
+    <string name="efun_pd_copy_success">序号已复制</string>
+    <string name="efun_pd_copy_pw">密码已复制</string>
+    <string name="efun_pd_code_center">我的序号中心</string>
+    
+    <string name="efun_pd_regist_log">注册/登录</string>
+    <string name="efun_pd_manager_account">账号管理</string>
+    <string name="efun_pd_persion_reset_password_info">设置最新的账号密码</string>
+    <string name="efun_pd_current_password">旧密码</string>
+    <string name="efun_pd_new_password">新密码</string>
+    <string name="efun_pd_new_password_notify">密码由6-16个字符组成，区分大小写</string>
+    <string name="efun_pd_confirm_password">确认密码</string>
+    <string name="efun_pd_reset_password">更新密码</string>
+    <string name="efun_pd_reset_per_info">更新个人资料</string>
+    <string name="efun_pd_reset_per_title">个人资料</string>
+    <string name="efun_pd_reset_account">切换账号</string>
+    <string name="efun_pd_reset_save">保存</string>
+    <string name="efun_pd_reset_confirm_change">确认修改</string>
+    <string name="efun_pd_reset_reset">更新</string>
+    <string name="efun_pd_reset_change_pwd">更新密码</string>
+    <string name="efun_pd_reset_set_change_point_pwd_help">帮助</string>
+    <string name="efun_pd_reset_person_change_pwd_desc">您的密码已经修改，请重新登录喔</string>
+    <string name="efun_pd_exit_login">退出登录</string>
+    <string name="efun_pd_header">头像</string>
+    <string name="efun_pd_setting_subscription">订阅</string>
+    <string name="efun_pd_setting_push">推送设置</string>
+    <string name="efun_pd_setting_help">帮助与反馈</string>
+    <string name="efun_pd_setting_help_empty">反馈信息不能为空</string>
+    <string name="efun_pd_setting_appraisal">为剑侠情缘助手评分</string>
+    <string name="efun_pd_setting_help_and_feedback">爱我请留言，不喜欢我的也请告诉我</string>
+    <string name="efun_pd_setting_send_mes">送出想法</string>
+    <string name="efun_pd_setting_push_open">开启应用推送</string>
+    <string name="efun_pd_setting_push_close">关闭应用推送</string>
+    <string name="efun_pd_check_update">检测更新</string>
+    <string name="efun_pd_last_version">已是最新版本</string>
+    <string name="efun_pd_new_version">新版本：</string>
+    <string name="efun_pd_push_to_friends">推荐给好友</string>
+    <string name="efun_pd_clear_data">清除缓存</string>
+    <string name="efun_pd_about_us">关于我们</string>
+    <string name="efun_pd_close">关闭</string>
+    <string name="efun_pd_notification_update_1">人家有新版本辣，要更新一下吗？</string>
+    <string name="efun_pd_notification_update_2">人家有新版本辣，更新一下吧</string>
+    <string name="efun_pd_has_new">有新回覆</string>
+    <string name="efun_pd_camera_crop_error">您的设备不支持图片裁切，请到电脑上进行修改</string>
+    <string name="efun_pd_thumb_error">您的设备不支持</string>
+    <string name="efun_pd_error_video_url">无效的视频地址</string>
+    <string name="efun_pd_hint_account">账号</string>
+    <string name="efun_pd_hint_password">密码</string>
+    <string name="efun_pd_hint_password_confirm">重复密码</string>
+    <string name="efun_pd_hint_register_bind_phone">（选填）</string>
+    <string name="efun_pd_login">登录</string>
+    <string name="efun_pd_login_title_login">登录</string>
+    <string name="efun_pd_login_button_login">确认</string>
+    <string name="efun_pd_login_title_register">注册</string>
+    <string name="efun_pd_login_forget">找回密码？</string>
+    <string name="efun_pd_login_forget_tips">*填写已绑定的Email邮箱</string>
+    <string name="efun_pd_login_register">没有账号的先注册哦～</string>
+    <string name="efun_pd_hint_account_by_bahamut">巴哈用户</string>
+    <string name="efun_pd_hint_account_by_facebook">Facebook 用户</string>
+    <string name="efun_pd_hint_account_by_google">Google+ 用户</string>
+    <string name="efun_pd_hint_account_by_twitter">Twitter 用户</string>
+    <string name="efun_pd_register_account">账号：</string>
+    <string name="efun_pd_register_password">密码：</string>
+    <string name="efun_pd_register_cofirm_password">确认密码：</string>
+    <string name="efun_pd_register_email">邮箱：</string>
+    <string name="efun_pd_register_finish">注册</string>
+    <string name="efun_pd_hint_register_account">6~18个字符，需使用字母开头</string>
+    <string name="efun_pd_hint_register_password">6~16个字符，区分大小写</string>
+    <string name="efun_pd_hint_register_cofirm_password">请再次填写密码</string>
+    <string name="efun_pd_hint_register_email">请输入邮箱（选填）</string>
+    <string name="efun_pd_hint_forget_email">*请填写注册账号所用的Email邮箱</string>
+    <string name="efun_pd_email_intro">Email邮箱地址：</string>
+    <string name="efun_pd_register">注册</string>
+    <string name="efun_pd_service_clause">剑侠情缘助手隐私政策</string>
+    <string name="efun_pd_forget_email">Email邮箱:</string>
+    <string name="efun_pd_forget_password">忘记密码</string>
+    <string name="efun_pd_get_password">找回密码</string>
+    <string name="efun_pd_get_submit">确认</string>
+    <string name="efun_pd_game_item_version_prefix">更新至</string>
+    <string name="efun_pd_game_item_version">版</string>
+    <string name="efun_pd_loading_msg_commend">提交数据中...</string>
+    <string name="efun_pd_uninstalled_google_play">请先安装Google商店</string>
+    <string name="efun_pd_loading_msg_login">登录中...</string>
+    <string name="efun_pd_toast_timeout">请求超时，请稍后再试</string>
+    <string name="efun_pd_toast_empty_account">请输入账号</string>
+    <string name="efun_pd_toast_empty_password">请输入密码</string>
+    <string name="efun_pd_toast_error_account">账号格式：6~18个字符，可使用字母、数字、下划线，需以字母开头！</string>
+    <string name="efun_pd_toast_error_account_first_char">账号格式：需以字母开头！</string>
+    <string name="efun_pd_toast_error_password">密码要求6~16个字符！</string>
+    <string name="efun_pd_toast_empty_confirm_password">请输入重复密码</string>
+    <string name="efun_pd_toast_empty_different_password">前后密码不一致</string>
+    <string name="efun_pd_toast_empty_email">请输入Email邮箱</string>
+    <string name="efun_pd_toast_error_email">Email邮箱格式错误</string>
+    <string name="efun_pd_toast_error_webview_load">页面加载错误...</string>
+    <string name="efun_pd_sex_boy">男</string>
+    <string name="efun_pd_sex_girl">女</string>
+    <string name="efun_pd_anonymous">匿名</string>
+    <string name="efun_pd_empty_content">请输入内容</string>
+    <string name="efun_pd_empty_nick">Player</string>
+    <string name="efun_pd_agree_service_clause_1">我已阅读并同意</string>
+    <string name="efun_pd_agree_service_clause_2"> 《剑侠情缘助手隐私政策》 </string>
+    <string name="efun_pd_check_service_clause">请勾选服务条款</string>
+    <string name="efun_pd_person_member_name">账号：</string>
+    <string name="efun_pd_person_member_id">会员ID：</string>
+    <string name="efun_pd_efun_account_empty">剑侠情缘助手用户</string>
+    <string name="efun_pd_tab_find">发现</string>
+    <string name="efun_pd_tab_connected">交流</string>
+    <string name="efun_pd_upload_data">上传数据中...</string>
+    <string name="efun_pd_toast_url_empty">敬请期待！</string>
+    <string name="efun_pd_forget_pw_email">填写已绑定的邮箱</string>
+    <string name="efun_pd_video_toast_loading">正在玩命加载视频中。。。</string>
+    
+    <!-- 分享相关 -->
+    <string name="efun_pd_share_summary_content">剑侠情缘助手分享Hot资讯</string>
+    <string name="efun_pd_share_activity_content">剑侠情缘助手活动大放送</string>
+    <string name="efun_pd_share_app_content">下载剑侠情缘助手,真的很嗨~</string>
+    <string name="efun_pd_share_googlejia_error">分享失败，未安装google+应用</string>
+    <string name="efun_pd_share_line_error">您还没有安装Line客户端，不能进行分享。</string>
+    <string name="efun_pd_code_1028">参数错误</string>
+    <string name="efun_pd_code_1029">网络异常</string>
+    
+    <string name="progress_msg">Loading</string>
+	<string name="initializing_msg">初始化中...</string>
+	<string name="finalizing_msg">完成...</string>
+	<string name="efun_pd_login_with_other_account">---第三方登录---</string>
+	<string name="efun_pd_dialog_serial_tips">序号：</string>
+	<string name="efun_pd_confirm">确认</string>
+    
+    <!-- 无数据提示 -->
+    <string name="efun_pd_no_data_no_summary">还没有相关的新闻或资讯哦~</string>
+    <string name="efun_pd_no_data_no_commend">还没有相关的评论，点击评论</string>
+    <string name="efun_pd_no_data_no_activity">活动还没开启，请耐心等候</string>
+    <string name="efun_pd_no_data_no_giftself">还未领取任何礼包，赶快去领取吧~</string>
+    <string name="efun_pd_no_data_no_server_reply">暂无回复哦，请先提问~</string>
+    
+    <string name="efun_pd_no_video">暂无视频哦</string>
+    <string name="efun_pd_share_facebook">Facebook</string>
+    <string name="efun_pd_share_twitter">Twitter</string>
+    <string name="efun_pd_share_line">LINE</string>
+    <string name="efun_pd_share_googlejia">Google +</string>
+    <string name="efun_pd_share_email">Email</string>
+    <string name="efun_pd_act">活动</string>
+    
+    <string-array name="efun_pd_pop_per_info_pic">
+        <item>拍照</item>
+        <item>选择本地图片</item>
+    </string-array>
+    <string-array name="efun_pd_pop_per_info_sex">
+        <item>@string/efun_pd_sex_boy</item>
+        <item>@string/efun_pd_sex_girl</item>
+    </string-array>
+    <string-array name="efun_pd_summary_v_tab">
+        <item>全部</item>
+        <item>@string/efun_pd_news</item>
+        <item>公告</item>
+        <item>活动</item>
+        <item>@string/efun_pd_strategy</item>
+        <item>视频</item>
+    </string-array>
+    
+    <string name="efun_pd_service_clause_content">服务条款\n
+
+本契约是由会员（以下简称为“甲方”）和本游戏运营商（以下简称为“乙方”）就乙方所提供的游戏服务所订立的契约。一旦甲方注册成为乙方会员，即表示甲方同意并愿意遵守以下所有约定；\n
+ 
+第一条  契约适用之范围\n
+
+乙方提供甲方手机游戏服务及其他相关服务（以下简称本服务）。甲方完全遵守本契约书与本游戏相关之游戏管理规章。甲方及其法定代理人应先检阅本游戏是否有保护个人资料的隐私权政策。如甲方因泄露自己或家人之数据给其他第三人或与网友见面致受到任何损害或引发任何争议，概与乙方无关。\n
+
+第二条  注册数据\n
+
+一、个人资料的披露\n
+为了向甲方提供本服务，乙方不会公开甲方的姓名、住址、通讯地址、电子邮件、账号、密码等个人资料。除非：\n 
+1.甲方允许乙方揭露这些个人资料； \n
+2.有关法律法规或行政规章要求乙方揭露甲方的个人资料；\n 
+3.为保护乙方的知识产权和其他财产权益，需要揭露甲方的个人资料。\n 
+乙方将采取商业上合理的方式以保护甲方的个人资料的安全。对于非因乙方的疏忽而造成甲方账号的丢失或甲方个人资料的泄露，乙方不承担任何责任。\n 
+
+第三条  甲方的义务\n
+
+1.甲方不得通过不正当的手段或其他不公平的手段使用本服务或参与乙方活动。\n 
+2.甲方不得干扰乙方正常地提供本服务，包括但不限于：\n
+（1）  破解、修改乙方提供的客户端程序； \n
+（2） 制作、使用、发布、传播任何形式的妨碍游戏公平性的辅助工具或程序（外挂）；\n
+（3） 利用程序的漏洞和错误（Bug）破坏游戏的正常进行或传播该漏洞或错误（Bug）；\n
+（4） 违法搜集他人之个人资料。\n
+3.甲方必须保管好自己的账号和密码，由于甲方的原因导致账号和密码泄漏而造成的后果均将由甲方自行承担。\n 
+
+第四条  隐私保护\n
+
+1.乙方保证不对外公开或向第三方提供用户注册数据及用户在使用网络服务时存储在的非公开内容。\n
+2.乙方可能会与第三方合作向用户提供相关的网络服务，在此情况下，如该第三方同意承担与乙方同等的保护用户隐私的责任，则乙方可将用户的注册数据等提供给该第三方。\n 
+
+第五条  免责声明\n
+
+1.乙方不保证以下事宜：\n
+（1） 本服务将不受干扰、及时提供、安全可靠或不会出错。\n
+（2） 第三人借由非法方式介入或侵害甲方之权利，但乙方受甲方告知有此事情发生时，乙方将协助甲方排除或协助查明侵害来源。\n
+2.甲方明确同意其使用网络服务所存在的风险将完全由其自己承担。\n
+
+第六条  服务变更、中断或终止\n
+
+1.如因系统维护或升级的需要而需暂停网络服务，乙方将尽可能事先进行通告。\n
+2.乙方同时保留在事先公告或通知甲方的情况下随时中断或终止部分或全部网络服务的权利，对于所有服务的中断或终止而造成的任何损失，无需对甲方或任何第三方承担任何责任。\n 
+
+第七条  注销角色\n
+
+在下列情况下，乙方可以注销甲方创造的角色，并删除该角色的所有记录：\n
+1.甲方注册的游戏角色连续一段时间未通过该角色登入过乙方的游戏。\n
+2.甲方自行删除的角色，自删除之日起一定时间内没有恢复的。\n
+
+第八条  个人资料的转移和游戏方式的转变\n
+
+如乙方停止或改变提供本服务，乙方将会事先在游戏相关网页公告或以电子邮件通知甲方。在这种情况下，乙方可能会将甲方的个人资料（包括有关的账号和密码信息及个人资料）转移给该继续提供服务的一方，也可能需要永久封存原有数据以推行新的游戏方式。乙方并不保证届时能够找到适当的服务提供商或服务方式以代替乙方继续提供本服务。\n
+
+第九条  资费政策\n
+
+乙方有权决定和修改本服务的资费标准和收费方式。如资费调整时，乙方将于预定调整生效日前于本服务相关网页上公告。\n 
+对于乙方对本服务的收费，甲方应该按照乙方确定的资费政策购买本服务。如果甲方未按乙方确定的资费政策购买本服务，乙方可以立即停止向甲方提供本服务。\n 
+
+第十条  有限保证及责任限制\n
+
+对于本服务，乙方仅作下述有限保证，：\n
+1.乙方所提供的相关本服务基本与乙方正式公布的服务承诺相符；\n
+2.乙方仅在商业上允许的合理范围内尽力解决乙方在提供本服务过程中所遇到的任何问题。另外，在适用法律允许的最大范围内，乙方并不担保所提供的本服务一定能满足甲方的要求。乙方不就甲方因使用本服务引起的损害或请求（包括但不限于因人身伤害、因隐私泄漏、因未能履行包括诚信或合理谨慎在内的任何责任、因过失和因任何其他金钱上的损失或其他非金钱损失而造成的损害赔偿）承担任何责任。\n
+
+第十一条  游戏管理\n
+
+1.数据转移：在出现乙方游戏服务器合并情形时，乙方有权将用户的角色档案转移到乙方其它游戏服务器。\n
+2.甲方应遵守服务使用者守则\n
+（1） 禁止公开或私下传播任何存在并可利用的游戏Bug，请在发现该类问题时立即向乙方反应；\n
+（2） 禁止使用含有人身攻击、淫秽、辱骂、反动及其他危害本游戏形象；\n
+（3） 禁止使用公共频道恶意刷屏、买卖账号、买卖游戏币，或做出任何影响正常游戏秩序的行为；\n
+（4） 任何违反以上条款的违规行为，GM有权根据情节轻重对违规者进行警告、强制下线、禁闭、更名、删除人物或冻结账号的处罚，情节尤其严重者，将进一步追究法律责任，违规造成的一切损害或损失，由甲方自行承担。\n　　
+3.虚拟物品说明\n 
+（1） 甲方不得进行任何未经过乙方认证的实体货币或点卡等物品与账号、虚拟货币和虚拟物品之间的交易，乙方对由此所造成的任何纠纷和损失概不负责；\n
+（2） 请提高警惕，谨防本游戏中的欺骗行为，由于甲方个人因素而造成的账号、虚拟物品和点卡被骗或其他任何损失，乙方概不负责；\n
+（3） 除服务器大规模断线外，由于地方网络问题、个人操作问题等个别原因造成的角色被删或回溯、以及虚拟物品和金钱的损失，乙方不负责任；\n
+4.游戏漏洞规则 \n
+（1） 乙方鼓励玩家汇报游戏中出现的问题和漏洞，一经证实将可能获得乙方的奖励。对于可能导致严重影响游戏平衡性的重大问题，官方有权进行修正、回溯或停止服务器运作，就前述修正、回溯或停止服务器运作所造成甲方之任何不便与损害，乙方不负责任。\n
+（2） 计算机系统或电磁纪录受到破坏，或计算机系统运作异常时，乙方应于采取合理之措施后尽快予以回复。\n
+（3） 乙方计算机系统发生第二项所称情况时，于完成修复并正常运作之前，乙方不得向甲方收取费用。\n
+（4） 因游戏程序漏洞致甲方受损时，乙方应依甲方之受损害情形，负损害赔偿责任。但当乙方可证明其无过失，得减轻其赔偿责任。\n
+
+第十二条  损害赔偿\n
+
+甲方若违反本契约或相关法令，导致乙方的母公司、子公司、附属公司、关系企业、受雇人、代理人及其他一切相关履行辅助人员因此受到损害或支出的一切衍生费用 （包括但不限于支付上述人士就甲方的违反行为所进行的一切辩护或索偿诉讼及相关和解之法律费用），甲方应负担损害赔偿及费用承担责任。\n
+
+第十三条  契约终止\n
+
+甲方应确实遵守本契约及有关法律命令的规定。若乙方认定甲方违反本契约或任何法令，乙方有权在无需向甲方进行事先通知的情况之下，立即暂停、终止或删除甲方账号与甲方账号中的所有相关数据、档案及任何记录，以及取消、停止、限制甲方的会员资格。\n
+
+第十四条  修改\n
+
+基于对乙方本身、用户及市场状况不断变化的考虑，甲方继续使用乙方的服务，则视同甲方同意并接受本契约条款修改、新增、删除后之一切内容，且不得因此而要求任何补偿或赔偿。\n
+
+第十五条  解释权\n
+
+本协议条款的解释，效力及纠纷的解决，适用于中华人民共和国法律，如甲方与乙方就本协议内容或其执行发生任何争议，双方同意首先尽量友好协商；协商不成时，任何一方均应向乙方所在地人民法院提起诉讼。\n
+</string>
+
+</resources>

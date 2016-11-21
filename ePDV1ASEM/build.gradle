@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        releasekey {
+            keyAlias 'efunen.platform'
+            keyPassword 'efun1608'
+            storeFile file('E:/workspace/AndroidStudioProjects/EfunPlatformsApp/ePDV1ASEM/key/EfunPlatformEn.keystone')
+            storePassword 'efun1608'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "24.0.1"
+    defaultConfig {
+        applicationId "com.efun.jqzs.sm"
+        minSdkVersion 11
+        targetSdkVersion 18
+        versionCode 3
+        versionName "1.0.2"
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            //定义一个文件
+            def outputFile = output.outputFile
+            //定义存储apk的位置和文件名，这里文件名格式定义为 [applicationId_版本号_ReleaseTime_apk]
+            if (outputFile != null && outputFile.name.contains("release") && outputFile.name.endsWith('.apk')) {
+
+                def fileName = "${variant.applicationId}_${variant.versionCode}_${variant.versionName}_${getReleaseTime()}_.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.releasekey
+        }
+    }
+}
+
+dependencies {
+    compile project(':google-play-services_lib_9256000')
+    compile project(':TwitterSDK')
+    compile project(':FacebookSDK-3.16.0')
+    compile files('libs/AF-Android-SDK-v2.3.1.18.jar')
+    compile files('libs/efun-ads-2.6.2.jar')
+    compile files('libs/efun-fb-share-3.3.jar')
+    compile files('libs/efun-push-notifition-3.3.jar')
+    compile files('libs/efunlogincommon.jar')
+    compile files('libs/GoogleConversionTrackingSdk-2.2.4.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/zxing-2.1.jar')
+}
+
+def getReleaseTime() {
+    return new Date().format("yyyy-MM-dd-HH-mm", TimeZone.getTimeZone("UTC"))
+}

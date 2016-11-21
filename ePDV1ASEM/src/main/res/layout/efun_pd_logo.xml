@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/white" >
+    </android.support.v4.view.ViewPager>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_100"
+        android:layout_alignParentBottom="true" >
+
+        <com.efun.platform.widget.ZoomPointContainer
+            android:id="@+id/zoom_point_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+        </com.efun.platform.widget.ZoomPointContainer>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+       android:id="@+id/logo_final" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@drawable/efun_pd_start_logo"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_30"
+            android:textColor="@color/e_636363"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/e_size_55"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

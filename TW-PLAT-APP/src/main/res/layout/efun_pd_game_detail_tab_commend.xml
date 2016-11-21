@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!--
+         <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:layout_marginTop="@dimen/e_size_30"
+        android:background="@android:color/darker_gray" />
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/e_size_40"
+        android:paddingLeft="@dimen/e_size_110"
+        android:paddingRight="@dimen/e_size_110" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e_size_40"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/e_size_22" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/efun_pd_games_commend_score"
+                android:textColor="@color/e_8e8e8e"
+                android:textSize="@dimen/e_text_size_40" />
+
+            <TextView
+                android:id="@+id/item_avg_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/e_size_10"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/e_text_size_40" />
+        </LinearLayout>
+
+        <com.efun.platform.widget.RatingBarView
+            android:id="@+id/game_commend_ratingbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+        </com.efun.platform.widget.RatingBarView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/e_size_80"
+            android:paddingRight="@dimen/e_size_80" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@color/e_8e8e8e"
+                android:textSize="@dimen/e_text_size_40" />
+
+            <ImageView
+                android:layout_width="@dimen/e_size_30"
+                android:layout_height="@dimen/e_size_30"
+                android:layout_marginLeft="@dimen/e_size_10"
+                android:src="@drawable/efun_pd_star_yellow_select" />
+
+            <com.efun.platform.widget.DrawViewUtil
+                android:id="@+id/item_star_level_5"
+                android:layout_width="@dimen/e_size_480"
+                android:layout_height="@dimen/e_size_20"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_20" >
+            </com.efun.platform.widget.DrawViewUtil>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/e_size_80"
+            android:paddingRight="@dimen/e_size_80" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textColor="@color/e_8e8e8e"
+                android:textSize="@dimen/e_text_size_40" />
+
+            <ImageView
+                android:layout_width="@dimen/e_size_30"
+                android:layout_height="@dimen/e_size_30"
+                android:layout_marginLeft="@dimen/e_size_10"
+                android:src="@drawable/efun_pd_star_yellow_select" />
+
+            <com.efun.platform.widget.DrawViewUtil
+                android:id="@+id/item_star_level_4"
+                android:layout_width="@dimen/e_size_480"
+                android:layout_height="@dimen/e_size_20"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_20" >
+            </com.efun.platform.widget.DrawViewUtil>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/e_size_80"
+            android:paddingRight="@dimen/e_size_80" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="@color/e_8e8e8e"
+                android:textSize="@dimen/e_text_size_40" />
+
+            <ImageView
+                android:layout_width="@dimen/e_size_30"
+                android:layout_height="@dimen/e_size_30"
+                android:layout_marginLeft="@dimen/e_size_10"
+                android:src="@drawable/efun_pd_star_yellow_select" />
+
+            <com.efun.platform.widget.DrawViewUtil
+                android:id="@+id/item_star_level_3"
+                android:layout_width="@dimen/e_size_480"
+                android:layout_height="@dimen/e_size_20"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_20" >
+            </com.efun.platform.widget.DrawViewUtil>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/e_size_80"
+            android:paddingRight="@dimen/e_size_80" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/e_8e8e8e"
+                android:textSize="@dimen/e_text_size_40" />
+
+            <ImageView
+                android:layout_width="@dimen/e_size_30"
+                android:layout_height="@dimen/e_size_30"
+                android:layout_marginLeft="@dimen/e_size_10"
+                android:src="@drawable/efun_pd_star_yellow_select" />
+
+            <com.efun.platform.widget.DrawViewUtil
+                android:id="@+id/item_star_level_2"
+                android:layout_width="@dimen/e_size_480"
+                android:layout_height="@dimen/e_size_20"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_20" >
+            </com.efun.platform.widget.DrawViewUtil>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/e_size_80"
+            android:paddingRight="@dimen/e_size_80" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/e_8e8e8e"
+                android:textSize="@dimen/e_text_size_40" />
+
+            <ImageView
+                android:layout_width="@dimen/e_size_30"
+                android:layout_height="@dimen/e_size_30"
+                android:layout_marginLeft="@dimen/e_size_10"
+                android:src="@drawable/efun_pd_star_yellow_select" />
+
+            <com.efun.platform.widget.DrawViewUtil
+                android:id="@+id/item_star_level_1"
+                android:layout_width="@dimen/e_size_480"
+                android:layout_height="@dimen/e_size_20"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_20" >
+            </com.efun.platform.widget.DrawViewUtil>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_1"
+            android:layout_marginTop="@dimen/e_size_30"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/vote_commend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/e_size_30"
+            android:paddingTop="@dimen/e_size_30"
+            android:text="@string/efun_pd_games_write_commend"
+            android:textColor="@color/e_4ca8ff"
+            android:textSize="@dimen/e_text_size_45" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_1"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+</LinearLayout>

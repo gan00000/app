@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="attr" name="show_pictures" id="0x7f010000" />
+    <public type="attr" name="extra_fields" id="0x7f010001" />
+    <public type="attr" name="show_title_bar" id="0x7f010002" />
+    <public type="attr" name="title_text" id="0x7f010003" />
+    <public type="attr" name="done_button_text" id="0x7f010004" />
+    <public type="attr" name="title_bar_background" id="0x7f010005" />
+    <public type="attr" name="done_button_background" id="0x7f010006" />
+    <public type="attr" name="multi_select" id="0x7f010007" />
+    <public type="attr" name="radius_in_meters" id="0x7f010008" />
+    <public type="attr" name="results_limit" id="0x7f010009" />
+    <public type="attr" name="search_text" id="0x7f01000a" />
+    <public type="attr" name="show_search_box" id="0x7f01000b" />
+    <public type="attr" name="confirm_logout" id="0x7f01000c" />
+    <public type="attr" name="fetch_user_info" id="0x7f01000d" />
+    <public type="attr" name="login_text" id="0x7f01000e" />
+    <public type="attr" name="logout_text" id="0x7f01000f" />
+    <public type="attr" name="preset_size" id="0x7f010010" />
+    <public type="attr" name="is_cropped" id="0x7f010011" />
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/task_fenge_line"
+        android:layout_width="@dimen/e_size_2"
+        android:layout_height="@dimen/e_size_28"
+        android:layout_marginTop="@dimen/e_size_5"
+        android:layout_marginBottom="@dimen/e_size_5"
+        android:layout_gravity="center"
+        android:background="@color/e_d9d9d9" />
+    
+    <TextView
+        android:id="@+id/task_step_num" 
+        android:layout_width="@dimen/e_size_60"
+        android:layout_height="@dimen/e_size_60"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/e_text_size_40"
+        android:background="@drawable/efun_pd_welfare_grey_round_icon"
+        />
+    <LinearLayout
+        android:id="@+id/task_step_content_layout" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/e_size_5"
+        android:background="@drawable/efun_pd_welfare_grey_round_icon"
+        android:padding="@dimen/e_size_8"
+        >
+    <TextView
+        android:id="@+id/task_step_content" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/e_size_10"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/e_text_size_40"
+        />
+    <ImageView 
+        android:layout_width="@dimen/e_size_39"
+        android:layout_height="@dimen/e_size_34"
+        android:layout_marginRight="@dimen/e_size_10"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/e_size_10"
+        android:src="@drawable/efun_pd_welfare_task_right_gou_icon"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

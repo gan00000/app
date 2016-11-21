@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contaier_frame_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.efun.platform.widget.TitleView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.efun.platform.widget.TitleView>
+
+        <RelativeLayout
+            android:id="@+id/contaier_relative_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/e_size_24"
+                android:layout_marginRight="@dimen/e_size_24"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/e_size_100"
+                    android:background="@color/e_c3e5f2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/e_size_70"
+                        android:layout_height="@dimen/e_size_70"
+                        android:layout_marginLeft="@dimen/e_size_38"
+                        android:layout_marginRight="@dimen/e_size_12"
+                        android:background="@drawable/efun_pd_doubt_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/efun_pd_your_question"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_50" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/e_size_30"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/e_text_size_40" >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/e_size_100"
+                    android:background="@color/e_dfdfdf"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/e_size_70"
+                        android:layout_height="@dimen/e_size_70"
+                        android:layout_marginLeft="@dimen/e_size_38"
+                        android:layout_marginRight="@dimen/e_size_12"
+                        android:background="@drawable/efun_pd_info_icon_blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/efun_pd_cs_reply_record"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_50" />
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1.0" >
+
+                    <LinearLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </ScrollView>
+
+                <LinearLayout
+                    android:id="@+id/contaier_linear_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/e_size_100"
+                    android:background="@color/e_c3e5f2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="@dimen/e_size_70"
+                        android:layout_height="@dimen/e_size_70"
+                        android:layout_marginLeft="@dimen/e_size_38"
+                        android:layout_marginRight="@dimen/e_size_12"
+                        android:background="@drawable/efun_pd_info_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/efun_pd_replay_ask_again"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_50" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edit_player_ask"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/e_size_240"
+                    android:layout_marginBottom="@dimen/e_size_38"
+                    android:layout_marginLeft="@dimen/e_size_38"
+                    android:layout_marginRight="@dimen/e_size_38"
+                    android:layout_marginTop="@dimen/e_size_38"
+                    android:background="@drawable/efun_pd_input_edging_bg"
+                    android:gravity="top"
+                    android:imeOptions="actionDone"
+                    android:padding="@dimen/e_size_20"
+                    android:textSize="@dimen/e_text_size_40" >
+                </EditText>
+
+                <RelativeLayout
+                    android:id="@+id/contaier_relative_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/e_size_188"
+                    android:layout_marginLeft="@dimen/e_size_28" >
+
+                    <TextView
+                        android:id="@+id/text_1"
+                        android:layout_width="@dimen/e_size_320"
+                        android:layout_height="@dimen/e_size_120"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/e_size_136"
+                        android:background="@drawable/efun_pd_setting_button_selector"
+                        android:gravity="center"
+                        android:text="@string/efun_pd_reply"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_50" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text_2"
+                        android:layout_width="@dimen/e_size_320"
+                        android:layout_height="@dimen/e_size_120"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/e_size_136"
+                        android:background="@drawable/efun_pd_setting_button_selector"
+                        android:gravity="center"
+                        android:text="@string/efun_pd_finish_question"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/e_text_size_50" >
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

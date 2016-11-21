@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/efun_pd_person_item_bg_selector"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/e_size_120"
+        android:layout_height="@dimen/e_size_120"
+        android:layout_marginTop="@dimen/e_size_35" >
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="@dimen/e_size_120"
+            android:layout_height="@dimen/e_size_120" />
+        <ImageView 
+            android:id="@+id/item_red_point"
+            android:layout_width="@dimen/e_size_33"
+            android:layout_height="@dimen/e_size_33"
+            android:layout_marginRight="@dimen/e_size_10"
+            android:layout_marginTop="@dimen/e_size_5"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:src="@drawable/efun_pd_persion_item_red_point_icon"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/e_size_45"
+        android:layout_marginTop="@dimen/e_size_30"
+        android:textColor="@color/e_707070"
+        android:textSize="@dimen/e_text_size_36" />
+
+</LinearLayout>

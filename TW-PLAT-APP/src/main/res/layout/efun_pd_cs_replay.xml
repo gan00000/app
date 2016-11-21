@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/e_size_30"
+        android:layout_marginLeft="@dimen/e_size_5"
+        android:layout_marginRight="@dimen/e_size_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/e_size_45"
+            android:layout_height="@dimen/e_size_45"
+            android:src="@drawable/efun_pd_fav" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/efun_pd_recommended_games"
+            android:textColor="@color/e_353434"
+            android:textSize="@dimen/e_text_size_55" />
+
+        <TextView
+            android:id="@+id/more_blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/efun_pd_recommended_games_more"
+            android:textColor="@color/efun_pd_text_4ba8ff_to_a0a0a0_selecter"
+            android:textSize="@dimen/e_text_size_35"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.efun.platform.module.summary.view.RecmdedGameContainer
+        android:id="@+id/recommended_game_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/e_size_78"
+        android:layout_marginRight="@dimen/e_size_78" >
+    </com.efun.platform.module.summary.view.RecmdedGameContainer>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/e_size_30"
+        android:layout_marginTop="@dimen/e_size_30"
+        android:src="@drawable/efun_pd_gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/e_size_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/e_size_45"
+            android:layout_height="@dimen/e_size_45"
+            android:layout_marginLeft="@dimen/e_size_5"
+            android:src="@drawable/efun_pd_summary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/efun_pd_games_summary"
+            android:textColor="@color/e_353434"
+            android:textSize="@dimen/e_text_size_55" />
+
+        <TextView
+            android:id="@+id/more_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/efun_pd_recommended_games_more"
+            android:textColor="@color/efun_pd_text_4ba8ff_to_a0a0a0_selecter"
+            android:textSize="@dimen/e_text_size_35"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.efun.platform.module.summary.view.SummaryContainer
+        android:id="@+id/summary_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+include ':app', ':FacebookSDK-4.5.1', ':google-play-services_lib_9256000', ':FacebookSDK-3.16.0', ':lib', ':tablayoutsupport'
+include ':TwitterSDK'
+include ':ePDV1ASEM'
+include ':TW-PLAT-APP'

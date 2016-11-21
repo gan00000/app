@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 外围图形 -->
+    <item>
+        <shape android:shape="rectangle" >
+
+            <!-- 整个图形的大小 -->
+            <size
+                android:height="@dimen/e_size_40"
+                android:width="@dimen/e_size_40" >
+            </size>
+            <!-- 内部图形的内边距 -->
+            <padding android:bottom="@dimen/e_size_20" />
+            <!-- 外围图形的圆角弧度 -->
+            <corners android:radius="@dimen/e_size_10" >
+            </corners>
+            <!-- 图形的填充颜色 -->
+            <solid android:color="@color/e_b0a9ed" >
+            </solid>
+            <!-- 图形的边框大小，颜色 -->
+            <stroke
+                android:width="@dimen/e_size_5"
+                android:color="@android:color/white" >
+            </stroke>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >
+
+            <!-- 内部图形的圆角弧度 -->
+            <corners android:radius="@dimen/e_size_10" >
+            </corners>
+            <!-- 内部图形的大小 -->
+            <size
+                android:height="@dimen/e_size_24"
+                android:width="@dimen/e_size_40" >
+            </size>
+            <!-- 内部图形的填充颜色 -->
+            <solid android:color="@color/e_b0a9ed" >
+            </solid>
+            <!-- 内部图形的边框大小，颜色 -->
+            <stroke
+                android:width="@dimen/e_size_5"
+                android:color="@android:color/white" >
+            </stroke>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e_ffffff"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/e_size_30"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/efun_pd_person_radio_bg_selector"
+                android:checked="true"
+                android:drawablePadding="@dimen/e_size_5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_5"
+                android:text="@string/efun_pd_sex_boy"
+                android:textColor="@color/e_272727"
+                android:textSize="@dimen/e_text_size_40" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/e_size_30"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/efun_pd_person_radio_bg_selector"
+                android:drawablePadding="@dimen/e_size_5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/e_size_5"
+                android:text="@string/efun_pd_sex_girl"
+                android:textColor="@color/e_272727"
+                android:textSize="@dimen/e_text_size_40" />
+        </LinearLayout>
+    </RadioGroup>
+
+</LinearLayout>

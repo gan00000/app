@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/e_size_40"
+    android:layout_height="@dimen/e_size_40"
+    android:layout_margin="@dimen/e_size_20">
+    <com.efun.platform.widget.ZoomPoint 
+        android:id="@+id/zoom_point"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/efun_pd_corners_point_white"/>
+</LinearLayout>

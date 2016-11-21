@@ -1,0 +1,97 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From E-PD-V2-TW:
+* fabric.properties
+* ic_launcher-web.png
+* kits.properties
+* proguard-com.twitter.sdk.android.twitter.txt
+From FacebookSDK-3.16.0:
+* build.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+google-play-services_lib_9256000 => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In FacebookSDK-3.16.0:
+* AndroidManifest.xml => facebookSDK3160\src\main\AndroidManifest.xml
+* libs\bolts.jar => facebookSDK3160\libs\bolts.jar
+* res\ => facebookSDK3160\src\main\res\
+* src\ => facebookSDK3160\src\main\java\
+In E-PD-V2-TW:
+* AndroidManifest.xml => TW-PLAT-APP\src\main\AndroidManifest.xml
+* assets\ => TW-PLAT-APP\src\main\assets\
+* libs\AF-Android-SDK-v2.3.1.18.jar => TW-PLAT-APP\libs\AF-Android-SDK-v2.3.1.18.jar
+* libs\efun-ads-2.6.2.jar => TW-PLAT-APP\libs\efun-ads-2.6.2.jar
+* libs\efun-downloader.jar => TW-PLAT-APP\libs\efun-downloader.jar
+* libs\efun-fb-share-3.3.jar => TW-PLAT-APP\libs\efun-fb-share-3.3.jar
+* libs\efun-push-notifition-3.3.jar => TW-PLAT-APP\libs\efun-push-notifition-3.3.jar
+* libs\efun-twitter-share-1.0.jar => TW-PLAT-APP\libs\efun-twitter-share-1.0.jar
+* libs\efun-utils-5.1.jar => TW-PLAT-APP\libs\efun-utils-5.1.jar
+* libs\GoogleConversionTrackingSdk-2.2.4.jar => TW-PLAT-APP\libs\GoogleConversionTrackingSdk-2.2.4.jar
+* libs\nineoldandroids-2.4.0.jar => TW-PLAT-APP\libs\nineoldandroids-2.4.0.jar
+* libs\signpost-commonshttp4-1.2.1.1.jar => TW-PLAT-APP\libs\signpost-commonshttp4-1.2.1.1.jar
+* libs\signpost-core-1.2.1.1.jar => TW-PLAT-APP\libs\signpost-core-1.2.1.1.jar
+* libs\twitter4j-core.jar => TW-PLAT-APP\libs\twitter4j-core.jar
+* libs\twitter4j-media.jar => TW-PLAT-APP\libs\twitter4j-media.jar
+* libs\zxing-2.1.jar => TW-PLAT-APP\libs\zxing-2.1.jar
+* proguard-android.txt => TW-PLAT-APP\proguard-android.txt
+* res\ => TW-PLAT-APP\src\main\res\
+* src\ => TW-PLAT-APP\src\main\java\
+* src\com\efun\platform\aidl\StartGame.aidl => TW-PLAT-APP\src\main\aidl\com\efun\platform\aidl\StartGame.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

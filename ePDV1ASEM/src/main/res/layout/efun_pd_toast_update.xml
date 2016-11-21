@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/update_body"
+        android:layout_width="@dimen/e_size_796"
+        android:layout_height="@dimen/e_size_433"
+        android:layout_centerInParent="true"
+        android:background="@drawable/efun_pd_update_common_bg"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/e_size_80"
+            android:padding="@dimen/e_size_40"
+            android:text="@string/efun_pd_notification_update_1"
+            android:textColor="@color/e_797979"
+            android:textSize="@dimen/e_text_size_40" />
+
+        <LinearLayout
+            android:id="@+id/contaier_relative_1"
+            android:layout_width="@dimen/e_size_796"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:paddingLeft="@dimen/e_size_117"
+            android:paddingRight="@dimen/e_size_117"
+            android:layout_marginTop="@dimen/e_size_25"
+            android:layout_marginBottom="@dimen/e_size_85" >
+
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/efun_pd_cons_39de76_bg"
+                android:gravity="center"
+                android:text="@string/efun_pd_update_ok"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/e_size_10"
+                android:textSize="@dimen/e_size_50" />
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="@dimen/e_size_40"
+                android:background="@drawable/efun_pd_cons_417fd2_bg"
+                android:gravity="center"
+                android:text="@string/efun_pd_update_cancel"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/e_size_10"
+                android:textSize="@dimen/e_size_50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contaier_relative_2"
+            android:layout_width="@dimen/e_size_796"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/e_size_25"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/e_size_85" >
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/e_size_100"
+                android:paddingRight="@dimen/e_size_100"
+                android:paddingTop="@dimen/e_size_10"
+                android:paddingBottom="@dimen/e_size_10"
+                android:background="@drawable/efun_pd_cons_ff6263_bg"
+                android:gravity="center"
+                android:text="@string/efun_pd_update_ok"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/e_size_50" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

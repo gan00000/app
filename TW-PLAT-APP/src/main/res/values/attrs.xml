@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="summaryTabPageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MaterialRadioButton">
+        <attr name="border_width" format="reference" />
+        <attr name="dot_margin" format="reference" />
+        <attr name="theme_color" format="reference" />
+        <attr name="padding_left" format="reference" />
+    </declare-styleable>
+
+</resources>

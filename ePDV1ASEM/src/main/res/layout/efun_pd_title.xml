@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/contaier_relative_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_160"
+        android:background="@color/e_ffffff"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/left_btn"
+            android:layout_width="@dimen/e_size_160"
+            android:layout_height="@dimen/e_size_160"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/e_size_18"
+            android:background="@drawable/efun_pd_back_selector" />
+
+        <ImageView
+            android:id="@+id/center_btn"
+            android:layout_width="@dimen/e_size_196"
+            android:layout_height="@dimen/e_size_94"
+            android:layout_centerInParent="true"
+            android:background="@drawable/efun_pd_logo" />
+
+        <TextView
+            android:id="@+id/center_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/e_567fbc"
+            android:textSize="@dimen/e_text_size_60"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/right_btn"
+            android:layout_width="@dimen/e_size_160"
+            android:layout_height="@dimen/e_size_160"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/e_size_18"
+            android:background="@drawable/efun_pd_append_selector" />
+        
+        <ImageView
+            android:id="@+id/icon_1"
+            android:visibility="gone"
+            android:layout_width="@dimen/e_size_20"
+            android:layout_height="@dimen/e_size_20"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/e_size_35"
+            android:layout_marginRight="@dimen/e_size_45"
+            android:background="@drawable/efun_pd_corners_point_red" />
+
+        <TextView
+            android:id="@+id/right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/e_size_60"
+            android:paddingLeft="@dimen/e_size_10"
+            android:paddingRight="@dimen/e_size_10"
+            android:textColor="@color/efun_pd_text_8e8e8e_to_black_selecter"
+            android:textSize="@dimen/e_text_size_50"
+            android:visibility="gone" />
+    </RelativeLayout>
+	<View 
+	    android:id="@+id/title_bottom_line"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/e_size_2"
+	    android:background="@color/e_567fbc"/>
+</LinearLayout>

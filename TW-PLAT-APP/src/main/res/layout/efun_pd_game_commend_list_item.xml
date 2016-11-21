@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/efun_pd_list_item_bg_selector"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/e_size_20"
+        android:paddingLeft="@dimen/e_size_62"
+        android:paddingRight="@dimen/e_size_62"
+        android:paddingTop="@dimen/e_size_20" >
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="@dimen/e_size_120"
+            android:layout_height="@dimen/e_size_120" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/e_size_30"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:textColor="@color/e_8e8e8e"
+                    android:textSize="@dimen/e_text_size_28" />
+
+                <TextView
+                    android:id="@+id/item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/e_8e8e8e"
+                    android:textSize="@dimen/e_text_size_24" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/e_text_size_30" />
+
+            <com.efun.platform.widget.RatingBarView
+                android:id="@+id/game_commend_ratingbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/e_size_10" >
+            </com.efun.platform.widget.RatingBarView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:layout_marginLeft="@dimen/e_size_62"
+        android:layout_marginRight="@dimen/e_size_62"
+        android:background="@color/e_8e8e8e" />
+
+</LinearLayout>

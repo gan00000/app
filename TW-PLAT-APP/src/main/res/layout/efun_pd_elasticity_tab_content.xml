@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.efun.platform.widget.list.XListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.0"
+            android:cacheColorHint="@color/@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbars="none" >
+        </com.efun.platform.widget.list.XListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/efun_pd_progress_dialog_rotate" />
+
+        <ImageView
+            android:id="@+id/center_btn"
+            android:layout_width="@dimen/e_size_520"
+            android:layout_height="@dimen/e_size_350"
+            android:layout_centerInParent="true"
+            android:background="@drawable/efun_pd_error_network"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/center_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/e_00aaeb"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/e_size_10"
+            android:text="@string/efun_pd_network_error"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/e_text_size_40"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</FrameLayout>

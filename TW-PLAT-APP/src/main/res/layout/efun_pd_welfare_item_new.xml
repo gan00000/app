@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e_f8f4ee" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_220"
+        android:layout_marginLeft="@dimen/e_size_25"
+        android:layout_marginRight="@dimen/e_size_25"
+        android:layout_marginTop="@dimen/e_size_167"
+        android:background="@drawable/efun_pd_welfare_gift_item_content_bg"
+        android:paddingBottom="@dimen/e_size_46"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:id="@+id/welfare_task_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="@dimen/e_size_264"
+            android:layout_marginTop="@dimen/e_size_35"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/e_size_10"
+                android:textColor="@color/e_8c8c8c"
+                android:textSize="@dimen/e_text_size_40" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e_size_120"
+            android:orientation="horizontal" >  
+
+            <TextView
+                android:id="@+id/welfare_task_gift_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/e_8c8c8c"
+                android:layout_marginLeft="@dimen/e_size_88"
+                android:layout_marginRight="@dimen/e_size_56"
+                android:textSize="@dimen/e_text_size_30" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        	android:id="@+id/task_finish_body" 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/e_size_220"
+            android:layout_marginTop="@dimen/e_size_167"
+            >
+            <ImageView 
+                android:id="@+id/welfare_task_finish_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/e_size_220"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                android:src="@drawable/efun_pd_welfare_score_task_finish"
+                />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/welfare_game_icon"
+        android:layout_width="@dimen/e_size_190"
+        android:layout_height="@dimen/e_size_190"
+        android:layout_marginLeft="@dimen/e_size_64"
+        android:layout_marginTop="@dimen/e_size_80"
+        android:src="@drawable/efun_pd_default_square_icon" />
+
+    <TextView
+        android:id="@+id/welfare_game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/e_size_39"
+        android:layout_marginTop="@dimen/e_size_93"
+        android:layout_toRightOf="@id/welfare_game_icon"
+        android:textColor="@color/e_8c8c8c"
+        android:textSize="@dimen/e_text_size_45"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/item_icon2"
+        android:layout_width="@dimen/e_size_190"
+        android:layout_height="@dimen/e_size_190"
+        android:layout_marginRight="@dimen/e_size_64"
+        android:layout_marginTop="@dimen/e_size_80"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/efun_pd_welfare_item_ex_normal_btn" />
+    
+    <TextView
+        android:id="@+id/item_bind_phone"
+        android:layout_width="@dimen/e_size_240"
+        android:layout_height="@dimen/e_size_105"
+        android:layout_marginRight="@dimen/e_size_64"
+        android:layout_marginTop="@dimen/e_size_120"
+        android:text="@string/efun_pd_welfare_bind_phone"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/e_text_size_40"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:background="@drawable/efun_pd_welfare_green_to_darkgreen_selector" />
+
+    <View 
+        android:id="@+id/foot_kong_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_80"
+        android:layout_below="@id/task_finish_body"
+        android:visibility="gone"
+        />
+</RelativeLayout>

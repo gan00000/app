@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+       <public type="attr" name="tw__image_aspect_ratio" id="0x7f01002c" />
+    <public type="attr" name="tw__image_dimension_to_adjust" id="0x7f01002d" />
+    
+        <public type="color" name="tw__blue_default" id="0x7f07004d" />
+    <public type="color" name="tw__blue_pressed" id="0x7f07004e" />
+    <public type="color" name="tw__blue_pressed_light" id="0x7f07004f" />
+    <public type="color" name="tw__light_gray" id="0x7f070050" />
+    <public type="color" name="tw__medium_gray" id="0x7f070051" />
+    <public type="color" name="tw__solid_white" id="0x7f070052" />
+    <public type="color" name="tw__transparent" id="0x7f070053" />
+    
+        <public type="dimen" name="tw__btn_bar_margin_left" id="0x7f06004a" />
+    <public type="dimen" name="tw__btn_bar_margin_right" id="0x7f06004b" />
+    <public type="dimen" name="tw__login_btn_drawable_padding" id="0x7f06004c" />
+    <public type="dimen" name="tw__login_btn_height" id="0x7f06004d" />
+    <public type="dimen" name="tw__login_btn_left_padding" id="0x7f06004e" />
+    <public type="dimen" name="tw__login_btn_radius" id="0x7f06004f" />
+    <public type="dimen" name="tw__login_btn_right_padding" id="0x7f060050" />
+    <public type="dimen" name="tw__login_btn_text_size" id="0x7f060051" />
+    <public type="dimen" name="tw__padding_permission_horizontal_container" id="0x7f060052" />
+    <public type="dimen" name="tw__padding_permission_vertical_container" id="0x7f060053" />
+    <public type="dimen" name="tw__permission_description_text_size" id="0x7f060054" />
+    <public type="dimen" name="tw__permission_title_text_size" id="0x7f060055" />
+    
+      <public type="drawable" name="tw__login_btn" id="0x7f0200c3" />
+    <public type="drawable" name="tw__login_btn_default" id="0x7f0200c4" />
+    <public type="drawable" name="tw__login_btn_default_light" id="0x7f0200c5" />
+    <public type="drawable" name="tw__login_btn_disabled" id="0x7f0200c6" />
+    <public type="drawable" name="tw__login_btn_light" id="0x7f0200c7" />
+    <public type="drawable" name="tw__login_btn_pressed" id="0x7f0200c8" />
+    <public type="drawable" name="tw__login_btn_pressed_light" id="0x7f0200c9" />
+    <public type="drawable" name="tw__login_btn_text_color_light" id="0x7f0200ca" />
+    <public type="drawable" name="tw__player_overlay" id="0x7f0200cb" />
+    <public type="drawable" name="tw__seekbar_thumb" id="0x7f0200cc" />
+    <public type="drawable" name="tw__share_action" id="0x7f0200cd" />
+ <!--   <public type="drawable" name="tw__transparent" id="0x7f0200cf" />  -->
+    
+    
+      <public type="drawable" name="tw__ic_logo_default" id="0x7f0200af" />
+      
+          <public type="id" name="height" id="0x7f0c0005" />
+    <public type="id" name="width" id="0x7f0c0006" />
+    
+     <public type="id" name="tw__not_now_btn" id="0x7f0c00c5" />
+    <public type="id" name="tw__allow_btn" id="0x7f0c00c6" />
+    
+      <item type="id" name="tw__not_now_btn">false</item>
+    <item type="id" name="tw__allow_btn">false</item>
+    
+     <public type="id" name="imageView" id="0x7f0c00c3" />
+     <public type="id" name="tw__web_view" id="0x7f0c00c1" />
+    <public type="id" name="tw__spinner" id="0x7f0c00c2" /> 
+    
+      <item type="id" name="tw__web_view">false</item>
+    <item type="id" name="tw__spinner">false</item>
+    <item type="id" name="imageView">false</item>
+    
+        <public type="layout" name="tw__activity_oauth" id="0x7f030043" />
+    <public type="layout" name="tw__activity_share_email" id="0x7f030044" />
+    
+     <public type="raw" name="tw__cacerts" id="0x7f050000" />
+     
+     <public type="string" name="kit_name" id="0x7f080167" />
+        <public type="string" name="tw__allow_btn_txt" id="0x7f08012b" />
+    <public type="string" name="tw__login_btn_txt" id="0x7f08012c" />
+    <public type="string" name="tw__not_now_btn_txt" id="0x7f08012d" />
+    <public type="string" name="tw__share_email_desc" id="0x7f08012e" />
+    <public type="string" name="tw__share_email_title" id="0x7f08012f" />
+     
+      <public type="style" name="tw__Button" id="0x7f09001b" />
+    <public type="style" name="tw__Button.Light" id="0x7f09001c" />
+    <public type="style" name="tw__ButtonBar" id="0x7f09001d" />
+    <public type="style" name="tw__Permission_Container" id="0x7f09001e" />
+    <public type="style" name="tw__Permission_Description" id="0x7f09001f" />
+    <public type="style" name="tw__Permission_Title" id="0x7f090020" />
+     
+</resources>

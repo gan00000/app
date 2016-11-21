@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">320591650607-kacj6jde7ofov7vbc2kvcfmd8s2rooek.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://efunapp-e800a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">320591650607</string>
+    <string name="google_api_key" translatable="false">AIzaSyBYS_O3aCbqZe7LmZmFcOk31aUMfhju6fg</string>
+    <string name="google_app_id" translatable="false">1:320591650607:android:0362c7baf94535d6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBYS_O3aCbqZe7LmZmFcOk31aUMfhju6fg</string>
+    <string name="google_storage_bucket" translatable="false">efunapp-e800a.appspot.com</string>
+</resources>

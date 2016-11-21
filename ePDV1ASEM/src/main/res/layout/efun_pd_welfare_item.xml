@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/efun_pd_list_item_bg_selector"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_200"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/e_size_62"
+        android:layout_marginRight="@dimen/e_size_62"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="@dimen/e_size_100"
+            android:layout_height="@dimen/e_size_100" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/e_size_30"
+            android:id="@+id/item_content"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" 
+            android:textSize="@dimen/e_text_size_45"
+            android:duplicateParentState="true"
+            android:textColor="@color/efun_pd_text_black_to_5aa9ff_selecter"/>
+        
+        <TextView 
+            android:layout_marginLeft="@dimen/e_size_30"
+            android:id="@+id/item_text"
+            android:visibility="gone"
+            android:text="@string/efun_pd_has_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/e_fe4445"
+            android:textSize="@dimen/e_text_size_45"/>
+
+        <ImageView
+            android:layout_width="@dimen/e_text_size_45"
+            android:layout_height="@dimen/e_text_size_45"
+            android:background="@drawable/efun_pd_go_selector" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_line_1"
+        android:layout_marginLeft="@dimen/e_size_62"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:background="@color/e_8e8e8e" />
+
+</LinearLayout>

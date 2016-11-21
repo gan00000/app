@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="efunFBApplicationId">753046048052753</string>
+    
+    <string name="bahamut_clinet_id">67dc6b0afae0d7ce6e75ac7d4d0b4e8305423ee52</string>
+    
+    <!-- <string name="efun_pd_tracking_id">UA-47308302-8</string> -->
+    <string name="efun_pd_tracking_id">UA-47308302-11</string>
+    
+    <string name="efun_pd_url_base">http://pf.efuntw.com/</string>
+    <string name="efun_pd_url_game_base">http://game.efuntw.com/</string>
+    <string name="efun_pd_url_game_base_spa">http://gametw.efunsea.com/</string>
+    <string name="efun_pd_url_web_base">http://m.efuntw.com/</string>
+	<string name="efun_pd_url_fb_base">http://fb.efuntw.com/</string>
+	<string name="efun_pd_url_fb_base_spa">http://fbtw.efunsea.com/</string>
+	
+	<string name="efun_pd_url_ads_base">http://ad.efuntw.com/</string>
+	<string name="efun_pd_url_ads_base_spa">http://adtw.efunsea.com/</string>
+	
+	<string name="efunAdsPreferredUrl">http://ad.efuntw.com/</string>
+	<string name="efunAdsSpareUrl">http://adtw.efunsea.com/</string>
+	
+	<string name="efun_pd_url_login_base">http://login.efuntw.com/</string>
+	<string name="efun_pd_url_login_base_spa">http://login.efuntw.com/</string>
+	
+	<string name="efun_pd_url_img_upload_base">http://imgi.efuntw.com/</string>
+	<string name="efun_pd_url_img_upload_base_spa">http://imgi.efuntw.com/</string>
+	
+	<string name="efun_pd_url_pay_base">http://pay.efuntw.com/</string>
+	<string name="efun_pd_url_pay_base_spa">http://paytw.efunsea.com/</string>
+	
+	<string name="efun_pd_url_activity_base">http://www.efuntw.com/</string>
+	<string name="efun_pd_url_game_icon_base">http://image.download.vsplay.com/game/twicon/</string>
+	
+	<string name="efun_pd_url_stat_data_base">http://dc.efuntw.com/</string>
+	
+	<string name="efun_pd_sdk_cdn_download_base">http://sdk.download.efuntw.com/</string>
+	<string name="efun_pd_sdk_cdn_download_spa">http://sdk.downloadtw.efunsea.com/</string>
+	
+	<string name="twitter_API_KEY">vtk8z0ipasYoWmw5V8OAvrJf1</string>
+    <string name="twitter_API_SERCET">HzHanZmUdZgi7NYRgOxQHYrXNuO8KiiU1REj7hqERRI4xsNvyY</string>
+    <string name="twitter_SHARE_API_KEY">b610fb6bdc0bb2ba7508e4e7f2b0745ece4d833f</string>
+	
+	<!-- 推送域名和端口 -->
+	<string name="efun_pd_url_push_base">push.efuntw.com</string>
+	<string name="efun_pd_url_push_port_base">57114</string>
+	
+    
+    <string name="efun_pd_sdk_download_efunVersionCode">http://sdk.download.efuntw.com/twap/pfandroid/efunVersionCode.txt</string>
+	<string name="efun_pd_sdk_downloadtw_efunVersionCode">http://sdk.downloadtw.efunsea.com/twap/pfandroid/efunVersionCode.txt</string>
+	<string name="efun_pd_sdk_download_efunDomainInventory">http://sdk.download.efuntw.com/twap/pfandroid/efunDomainInventory.txt</string>
+	<string name="efun_pd_sdk_downloadtw_efunDomainInventory">http://sdk.downloadtw.efunsea.com/twap/pfandroid/efunDomainInventory.txt</string>
+	
+	<!-- S2S接入广告的类类名 -->
+    <string name="efunS2SListenerName">com.efun.platform.module.ads.S2SAdvert</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.efun.platform.widget.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.efun.platform.widget.TitleView>
+
+    <LinearLayout
+        android:id="@+id/contaier_linear_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.efun.platform.widget.list.XListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:cacheColorHint="@color/@android:color/transparent"
+            android:background="@color/e_f8f4ee"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbars="none" >
+        </com.efun.platform.widget.list.XListView>
+
+        <include
+            android:id="@+id/layout_2"
+            layout="@layout/efun_pd_game_detail_tab_bottom"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

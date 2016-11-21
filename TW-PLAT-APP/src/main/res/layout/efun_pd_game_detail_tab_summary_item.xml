@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/e_size_20"
+    android:paddingRight="@dimen/e_size_20"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/e_size_40"
+        android:paddingRight="@dimen/e_size_40"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_120"
+        android:background="@drawable/efun_pd_list_item_bg_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/item_content"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/e_text_size_35"
+            android:textColor="@color/efun_pd_text_696969_to_black_selecter"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_weight="1.0" />
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_marginLeft="@dimen/e_size_20"
+            android:textColor="@color/efun_pd_text_696969_to_black_selecter"
+            android:duplicateParentState="true"
+            android:textSize="@dimen/e_text_size_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- <ImageView
+            android:layout_width="@dimen/e_text_size_45"
+            android:layout_height="@dimen/e_text_size_45"
+            android:duplicateParentState="true"
+            android:background="@drawable/efun_pd_go_red_selector" /> -->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:background="@color/e_a7a7a7" />
+    </LinearLayout>
+   <View
+        android:id="@+id/item_line_2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/e_size_1"
+        android:background="@color/e_a7a7a7" />
+
+</LinearLayout>

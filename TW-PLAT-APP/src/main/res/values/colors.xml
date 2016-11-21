@@ -1,0 +1,249 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="e_eeeeee">#eeeeee</color>
+    <color name="e_33ccff">#33ccff</color>
+    <color name="e_353434">#353434</color>
+    <color name="e_696969">#696969</color>
+    <color name="e_5fb1ff">#5fb1ff</color>
+    <color name="e_4ba8ff">#4ba8ff</color>
+    <color name="e_a0a0a0">#a0a0a0</color>
+    <color name="e_ffc600">#ffc600</color>
+    <color name="e_cd81f9">#cd81f9</color>
+    <color name="e_33d7c9">#33d7c9</color>
+    <color name="e_9fcb2c">#9fcb2c</color>
+    <color name="e_fe4445">#fe4445</color>
+    <color name="e_b2b2b2">#b2b2b2</color>
+    <color name="e_b6b6b6">#b6b6b6</color>
+    <color name="e_8e8e8e">#8e8e8e</color>
+    <color name="e_8f8f8f">#8f8f8f</color>
+    <color name="e_dedede">#dedede</color>
+    <color name="e_a7a7a7">#a7a7a7</color>
+    <color name="e_b45b3e">#b45b3e</color>
+    <color name="e_5aa9ff">#5aa9ff</color>
+    <color name="e_efeff4">#efeff4</color>
+    <color name="e_ff9c8f">#ff9c8f</color>
+    <color name="e_ffc7bc">#ffc7bc</color>
+    <color name="e_ff9b8f">#ff9b8f</color>
+    <color name="e_f18162">#f18162</color>
+    <color name="e_f79d87">#f79d87</color>
+    <color name="e_e45d27">#e45d27</color>
+    <color name="e_027bff">#027bff</color>
+    <color name="e_50000000">#50000000</color>
+    <color name="e_B0000000">#B0000000</color>
+    <color name="e_ffa8abad">#ffa8abad</color>
+    <color name="e_e3ebfe">#e3ebfe</color>
+    <color name="e_929292">#929292</color>
+    <color name="e_ffe384">#ffe384</color>
+    <color name="e_5d340c">#5d340c</color>
+    <color name="e_dcdbde">#dcdbde</color>
+    <color name="e_ff5f3d">#ff5f3d</color>
+    <color name="e_f95757">#f95757</color>
+    <color name="e_c1c1c1">#c1c1c1</color>
+    <color name="e_a7a7aa">#a7a7aa</color>
+    <color name="e_ffa63d">#ffa63d</color>
+    <color name="e_5d76c7">#5d76c7</color>
+    <color name="e_f80d0b">#f80d0b</color>
+    <color name="e_f09a36">#f09a36</color>
+    <color name="e_e0e0e0">#e0e0e0</color>
+    <color name="e_d39000">#d39000</color>
+    <color name="e_e98c38">#e98c38</color>
+    <color name="e_fff765">#fff765</color>
+    <color name="e_3bc62a">#3bc62a</color>
+    <color name="e_16c6ff">#16c6ff</color>
+    <color name="e_e88c39">#e88c39</color>
+    <color name="e_cbcbcb">#cbcbcb</color>
+    <color name="e_17c6fd">#17c6fd</color>
+    <color name="e_ffdbc1">#ffdbc1</color>
+    <color name="e_c4d3f6">#c4d3f6</color>
+    <color name="e_f0f0f0">#f0f0f0</color>
+    <color name="e_e3db5d">#e3db5d</color>
+    <color name="e_ff534f">#ff534f</color>
+    <color name="e_c59268">#c59268</color>
+    <color name="e_62afea">#62afea</color>
+    <color name="e_74c37f">#74c37f</color>
+    <color name="e_ff999a">#83d160</color>
+    <color name="e_b6cdff">#b6cdff</color>
+    <color name="e_787cd3">#787cd3</color>
+    <color name="e_e1e1e1">#e1e1e1</color>
+    <color name="e_454889">#454889</color>
+    <color name="e_7066cd">#7066cd</color>
+    <color name="e_b0a9ed">#b0a9ed</color>
+
+    <color name="e_83d160">#83d160</color>
+    <color name="e_8058bd">#8058bd</color>
+    <color name="e_faca57">#faca57</color>
+    <color name="e_eb4847">#eb4847</color>
+    <color name="e_b0000000">#b0000000</color>
+    <color name="e_60000000">#60000000</color>
+    <color name="e_c0ffff00">#c0ffff00</color>
+    <color name="e_00aaeb">#00aaeb</color>
+    <color name="e_b8122a">#b8122a</color>
+    <color name="e_c7c7c7">#c7c7c7</color>
+    <color name="e_fef881">#fef881</color>
+    <color name="e_ffcb5b">#ffcB5b</color>
+    <color name="e_88e2af">#88e2af</color>
+    <color name="e_43b3fe">#43b3fe</color>
+    <color name="e_93ebfe">#93ebfe</color>
+    
+    <color name="e_8db8f8">#8db8f8</color>
+    
+    <color name="e_c3e5f2">#c3e5f2</color>
+	<color name="e_dfdfdf">#dfdfdf</color>
+	
+	<color name="e_ff61fe">#ff61fe</color>
+	
+	<color name="e_ffcbcbcb">#ffcbcbcb</color>
+	
+	<color name="e_ffeb6feb">#ffeb6feb</color>
+    <color name="e_fffdff29">#fffdff29</color>
+    
+    <color name="e_7166cd">#7166cd</color>
+    <color name="e_f2888a">#f2888a</color>
+    <color name="e_ffadad">#ffadad</color>
+    
+    <color name="e_f19149">#f19149</color>
+    <color name="e_e5e5e5">#e5e5e5</color>
+    <color name="e_d5d5d5">#d5d5d5</color>
+    <color name="e_0c7df2">#0c7df2</color>
+    <color name="e_dbdcde">#dbdcde</color>
+    
+    <color name="e_6bafef">#6bafef</color>
+    <color name="e_4f83e3">#4f83e3</color>
+    <color name="e_fe5a66">#fe5a66</color>
+    <color name="e_f8f4ee">#f8f4ee</color>
+    <color name="e_8c8c8c">#8c8c8c</color>
+    <color name="e_7fbaef">#7fbaef</color>
+    <color name="e_fd4e6a">#fd4e6a</color>
+    <color name="e_595959">#595959</color>
+    <color name="e_c8c8c8">#c8c8c8</color>
+    <color name="e_d4d4d4">#d4d4d4</color>
+    <color name="e_7aa8ea">#7aa8ea</color>
+    <color name="e_c3c3c6">#c3c3c6</color>
+    <color name="e_cc4751">#cc4751</color>
+    <color name="e_00bf8e">#00bf8e</color>
+    <color name="e_ffae42">#ffae42</color>
+    <color name="e_ff5ad3">#ff5ad3</color>
+    <color name="e_395fa5">#395fa5</color>
+    <color name="e_fd5b66">#fd5b66</color>
+    <color name="e_ff5967">#ff5967</color>
+    <color name="e_f7b651">#f7b651</color>
+    <color name="e_67b160">#67b160</color>
+    <color name="e_d9d9d9">#d9d9d9</color>
+    <color name="e_008362">#008362</color>
+    <color name="e_4764e3">#4764e3</color>
+    <color name="e_6b9ecc">#6b9ecc</color>
+    <color name="e_436dbe">#436dbe</color>
+    <color name="e_01c08f">#01c08f</color>
+    <color name="e_4934b4">#4934b4</color>
+    <color name="e_8c80e1">#8c80e1</color>
+    <color name="e_027cfe">#027cfe</color>
+    <color name="e_636363">#636363</color>
+    <color name="e_f7f7f7">#f7f7f7</color>
+    <color name="e_308be1">#308be1</color>
+    <color name="e_934cc0">#934cc0</color>
+    <color name="e_f2395b">#f2395b</color>
+    <color name="e_ffa01c">#ffa01c</color>
+    <color name="e_4ca8ff">#4ca8ff</color>
+    <color name="e_4cc9b6">#4cc9b6</color>
+    <color name="e_3b5b98">#3b5b98</color>
+    <color name="e_31d5b8">#31d5b8</color>
+    <color name="e_87a73c">#87a73c</color>
+    <color name="e_f3f3f3">#f3f3f3</color>
+    <color name="e_303030">#303030</color>
+    <color name="e_797979">#797979</color>
+    <color name="e_e4e4e4">#e4e4e4</color>
+    <color name="e_626262">#626262</color>
+    <color name="e_8d8d8d">#8d8d8d</color>
+    <color name="e_ff9a4f">#ff9a4f</color>
+    <color name="e_ff6274">#ff6274</color>
+    <color name="e_42bd41">#42bd41</color>
+    <color name="e_e2e6e9">#e2e6e9</color>
+    <color name="e_f9b030">#f9b030</color>
+    <color name="e_f16c61">#f16c61</color>
+    <color name="e_f9af2f">#f9af2f</color>
+    <color name="e_f36c60">#f36c60</color>
+    <color name="e_ff000000">#ff000000</color>
+    <color name="e_fff3f3f3">#fff3f3f3</color>
+    <color name="e_ff4c4c4c">#ff4c4c4c</color>
+    <color name="e_ffb2b2b2">#ffb2b2b2</color>
+    <color name="e_2fc7ff">#2fc7ff</color>
+    <color name="e_ff4f70">#ff4f70</color>
+    <color name="e_67d0fe">#67d0fe</color>
+    <color name="e_67d1ff">#67d1ff</color>
+    <color name="e_ff8b4c">#ff8b4c</color>
+    <color name="e_f2570b">#f2570b</color>
+    <color name="e_2fbae8">#2fbae8</color>
+    <color name="e_00a3d9">#00a3d9</color>
+    <color name="e_818181">#818181</color>
+    <color name="e_00b7ee">#00b7ee</color>
+    <color name="e_39a0ff">#39a0ff</color>
+    <color name="e_aeaeae">#aeaeae</color>
+    <color name="e_1e1e1e">#1e1e1e</color>
+    <color name="e_ff5050">#ff5050</color>
+    <color name="e_ff9031">#ff9031</color>
+    <color name="e_6baff0">#6baff0</color>
+    <color name="e_a0000000">#20000000</color>
+    <color name="e_b4b4b4">#b4b4b4</color>
+    <color name="e_b5c7f1">#b5c7f1</color>
+    <color name="e_4762e3">#4762e3</color>
+    <color name="e_ffffff">#ffffff</color>
+    <color name="e_ff4b4b">#ff4b4b</color>
+    <color name="e_39de76">#39de76</color>
+    <color name="e_417fd2">#417fd2</color>
+    <color name="e_ff6263">#ff6263</color>
+    <color name="e_000000">#000000</color>
+    <color name="e_707070">#707070</color>
+    <color name="e_cecece">#cecece</color>  
+    <color name="e_00a0e9">#00a0e9</color>
+    <color name="e_00c6ff">#00c6ff</color>  
+    <color name="e_272727">#272727</color>
+    <color name="e_4f4f4f">#4f4f4f</color>
+    <color name="e_2dade0">#2dade0</color>
+    <color name="e_50c1e9">#50c1e9</color>
+    <color name="e_575757">#575757</color>
+    <color name="e_b7b7b7">#b7b7b7</color>
+    <color name="e_00d2c1">#00d2c1</color>
+    <color name="e_bcbcbc">#bcbcbc</color>
+    <color name="e_7b7b7b">#7b7b7b</color>
+    <color name="e_c4c4c4">#c4c4c4</color>
+    <color name="e_ff6867">#ff6867</color>
+    <color name="e_56a7ed">#56a7ed</color>
+    <color name="e_32b4ff">#32b4ff</color>
+    <color name="e_2cd7d1">#2cd7d1</color>
+    <color name="e_f1f5f8">#f1f5f8</color>
+    <color name="e_747474">#747474</color>
+    <color name="e_c0c0c0">#c0c0c0</color>
+    <color name="e_7fb9f0">#7fb9f0</color>
+    <color name="e_c6c6c6">#c6c6c6</color>
+    <color name="actionsheet_blue">#037bff</color>
+    <color name="actionsheet_red">#fd4a2e</color>
+    <color name="actionsheet_gray">#8f8f8f</color>
+    <color name="e_a6a6a6">#a6a6a6</color>
+    <color name="e_ff4848">#ff4848</color>
+    <color name="e_834152">#834152</color>
+    <color name="e_29292e">#29292e</color><!-- 对话框标题颜色，黑色-->
+    <color name="e_58c2ef">#58c2ef</color><!-- 对话框中的礼包序号浅蓝色-->
+    <color name="e_ff686a">#ff686a</color><!-- 綁定手機中的禮包描述標題紅色-->
+    <color name="e_2eade4">#2eade4</color>
+    <color name="e_f8f8f8">#f8f8f8</color>
+    <color name="e_7c7c7c">#7c7c7c</color>
+    <color name="e_c9c9c9">#c9c9c9</color>
+    <color name="e_9f9f9f">#9f9f9f</color>
+    <color name="e_3176b2">#3176b2</color>
+    
+    
+     <integer-array name="efun_pd_blood">
+        <item>@color/e_aeaeae</item>
+        <item>@color/e_aeaeae</item>
+        <item>@color/e_aeaeae</item>
+        <item>@color/e_aeaeae</item>
+    </integer-array>
+    <integer-array name="efun_pd_collect_sex">
+        <item>@color/e_ff5050</item>
+        <item>@color/e_ff5050</item>
+        <item>@color/e_ff5050</item>
+        <item>@color/e_ff5050</item>
+    </integer-array>
+
+</resources>
